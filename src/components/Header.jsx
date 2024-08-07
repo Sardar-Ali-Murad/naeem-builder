@@ -9,7 +9,9 @@ const Header = ({ setShowSidebar }) => {
         </a>
 
         <nav className="navbar">
-          <a href="#home">home</a>
+          <a href="#home" style={{ textTransform: "lowercase" }}>
+            home
+          </a>
           <a href="#about">about</a>
           <a href="#services">services</a>
           <a href="#projects">projects</a>

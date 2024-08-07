@@ -11,14 +11,14 @@ const Pricing = () => {
             <i className="fas fa-home"></i>
             <h3>basic plan</h3>
             <div className="price">
-              <span>$</span>250<span>/mo</span>
+              <span>£</span>250<span>/mo</span>
             </div>
             <div className="list">
-              <p>interior design</p>
-              <p>refurbishment</p>
-              <p>material supply</p>
-              <p>maintenance</p>
-              <p>24/7 support</p>
+              <p>property listing</p>
+              <p>Basic Marketing</p>
+              <p>Rent Collection</p>
+              <p>Tenant Screening</p>
+              <p>Maintenance Requests</p>
             </div>
             <a href="#" className="btn">
               choose plan
@@ -29,14 +29,14 @@ const Pricing = () => {
             <i className="fas fa-building"></i>
             <h3>premium plan</h3>
             <div className="price">
-              <span>$</span>650<span>/mo</span>
+              <span>£</span>650<span>/mo</span>
             </div>
             <div className="list">
-              <p>interior design</p>
-              <p>refurbishment</p>
-              <p>material supply</p>
-              <p>maintenance</p>
-              <p>24/7 support</p>
+              <p>Enhanced Property Listing</p>
+              <p>Advanced Marketing Strategies</p>
+              <p>Premium Rent Collection</p>
+              <p>Comprehensive Tenant Screening</p>
+              <p>Regular Property Inspections</p>
             </div>
             <a href="#" className="btn">
               choose plan
@@ -47,14 +47,14 @@ const Pricing = () => {
             <i className="fas fa-city"></i>
             <h3>ultimate plan</h3>
             <div className="price">
-              <span>$</span>1250<span>/mo</span>
+              <span>£</span>1250<span>/mo</span>
             </div>
             <div className="list">
-              <p>interior design</p>
-              <p>refurbishment</p>
-              <p>material supply</p>
-              <p>maintenance</p>
-              <p>24/7 support</p>
+              <p>Featured Property Listings</p>
+              <p>High-Exposure Marketing Campaigns</p>
+              <p>Full-Service Rent Management</p>
+              <p>In-Depth Tenant Screening</p>
+              <p>24/7 Property Management and Support</p>
             </div>
             <a href="#" className="btn">
               choose plan
