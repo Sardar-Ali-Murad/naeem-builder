@@ -12,21 +12,19 @@ const SideBar = ({ showSideBar, setShowSidebar }) => {
       <div className="info">
         <i className="fas fa-phone"></i>
         <h3>phone number</h3>
-        <p>+123-456-7890</p>
-        <p>+111-222-3333</p>
+        <p>+44 7898 769063</p>
       </div>
 
       <div className="info">
         <i className="fas fa-envelope"></i>
         <h3>email address</h3>
-        <p>shaikhanas@gmail.com</p>
-        <p>anasbhai@gmail.com</p>
+        <p>naeemknn75@gmail.com</p>
       </div>
 
       <div className="info">
         <i className="fas fa-map-marker-alt"></i>
         <h3>office address</h3>
-        <p>mumbai, india - 400104</p>
+        <p>Flat, 6 Walford Road, Birmingham, B11 INR</p>
       </div>
 
       <div className="share">
