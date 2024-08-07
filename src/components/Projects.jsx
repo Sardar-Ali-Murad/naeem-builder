@@ -1,12 +1,22 @@
 import React from "react";
+import "lightgallery/css/lightgallery.css";
+import lightGallery from "lightgallery";
 
 const Projects = () => {
+  const galleryRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (galleryRef.current) {
+      lightGallery(galleryRef.current);
+    }
+  }, []);
+
   return (
     <div className="projects-container">
       <section className="projects" id="projects">
         <h1 className="heading"> our projects </h1>
 
-        <div className="box-container">
+        <div className="box-container" ref={galleryRef}>
           <a href="images/project-1.jpg" className="box">
             <div className="image">
               <img src="images/project-1.jpg" alt="" />
