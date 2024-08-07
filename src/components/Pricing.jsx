@@ -20,9 +20,7 @@ const Pricing = () => {
               <p>Tenant Screening</p>
               <p>Maintenance Requests</p>
             </div>
-            <a href="#" className="btn">
-              choose plan
-            </a>
+            <a className="btn">choose plan</a>
           </div>
 
           <div className="box">
@@ -38,9 +36,7 @@ const Pricing = () => {
               <p>Comprehensive Tenant Screening</p>
               <p>Regular Property Inspections</p>
             </div>
-            <a href="#" className="btn">
-              choose plan
-            </a>
+            <a className="btn">choose plan</a>
           </div>
 
           <div className="box">
@@ -56,9 +52,7 @@ const Pricing = () => {
               <p>In-Depth Tenant Screening</p>
               <p>24/7 Property Management and Support</p>
             </div>
-            <a href="#" className="btn">
-              choose plan
-            </a>
+            <a className="btn">choose plan</a>
           </div>
         </div>
       </section>

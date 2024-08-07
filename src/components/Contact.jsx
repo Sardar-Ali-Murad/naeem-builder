@@ -14,7 +14,7 @@ const Contact = () => {
             loading="lazy"
           ></iframe>
 
-          <form action="">
+          <form onSubmit={(event) => event.preventDefault()}>
             <h3>get in touch</h3>
             <input type="text" placeholder="name" className="box" />
             <input type="email" placeholder="email" className="box" />
@@ -27,7 +27,11 @@ const Contact = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <input type="submit" value="send message" className="btn" />
+            <input
+              value="send message"
+              className="btn"
+              onClick={(event) => event.preventDefault()}
+            />
           </form>
         </div>
       </section>
