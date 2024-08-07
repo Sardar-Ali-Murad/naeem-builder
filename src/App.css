@@ -295,13 +295,15 @@ section {
   z-index: 1100;
   padding: 0 2rem;
   padding-top: 5rem;
-  display: none;
+  transform: translateX(500px);
+  transition: 1s ease-in-out;
 }
 
 .contact-info.active {
   -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
   display: block;
+  transform: translateX(0px);
 }
 
 .contact-info #close-contact-info {
@@ -1019,4 +1021,3 @@ section {
     font-size: 2.5rem;
   }
 }
-/*# sourceMappingURL=style.css.map */

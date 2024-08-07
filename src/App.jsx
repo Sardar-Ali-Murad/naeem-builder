@@ -9,11 +9,14 @@ import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import Partners from "./components/Partners";
 import Footer from "./components/Footer";
+import SideBar from "./components/Sidebar";
 
 const App = () => {
+  let [showSideBar, setShowSidebar] = React.useState(false);
   return (
     <>
-      <Header />
+      <SideBar showSideBar={showSideBar} setShowSidebar={setShowSidebar} />
+      <Header setShowSidebar={setShowSidebar} />
       <Hero />
       <About />
       <Services />

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ setShowSidebar }) => {
   return (
     <header className="header">
       <section className="flex">
@@ -18,7 +18,7 @@ const Header = () => {
         </nav>
 
         <div className="icons">
-          <div>
+          <div onClick={() => setShowSidebar(true)}>
             <i className="fas fa-bars"></i>
           </div>
         </div>
