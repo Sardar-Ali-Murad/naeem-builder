@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header">
       <section className="flex">
         <a href="#" className="logo">
-          We<span>Build</span>
+          Naeem<span>Builders</span>
         </a>
 
         <nav className="navbar">
