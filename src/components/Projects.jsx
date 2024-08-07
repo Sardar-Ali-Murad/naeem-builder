@@ -13,7 +13,7 @@ const Projects = () => {
             </div>
             <div className="content">
               <div className="info">
-                <h3>dream home</h3>
+                <h3>Dream Home</h3>
                 <p>construction, design</p>
               </div>
               <i className="fas fa-plus"></i>
@@ -26,8 +26,8 @@ const Projects = () => {
             </div>
             <div className="content">
               <div className="info">
-                <h3>dream home</h3>
-                <p>construction, design</p>
+                <h3>Luxury Apartments</h3>
+                <p>modern living, premium amenities</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
@@ -39,8 +39,8 @@ const Projects = () => {
             </div>
             <div className="content">
               <div className="info">
-                <h3>dream home</h3>
-                <p>construction, design</p>
+                <h3>Office Spaces</h3>
+                <p>functional design</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
@@ -52,8 +52,8 @@ const Projects = () => {
             </div>
             <div className="content">
               <div className="info">
-                <h3>dream home</h3>
-                <p>construction, design</p>
+                <h3>Retail Stores</h3>
+                <p>attractive layouts</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
@@ -65,8 +65,8 @@ const Projects = () => {
             </div>
             <div className="content">
               <div className="info">
-                <h3>dream home</h3>
-                <p>construction, design</p>
+                <h3>Custom Homes</h3>
+                <p>personalized design</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
@@ -78,8 +78,8 @@ const Projects = () => {
             </div>
             <div className="content">
               <div className="info">
-                <h3>dream home</h3>
-                <p>construction, design</p>
+                <h3>Renovation Projects </h3>
+                <p>modern upgrades</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>

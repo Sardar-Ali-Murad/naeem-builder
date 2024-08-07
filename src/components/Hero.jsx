@@ -12,8 +12,8 @@ const Hero = () => {
             <div className="content">
               <h3>we provide best service</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernatur beatae iusto pariatur laborum magnam eos!
+                Experience unparalleled excellence in property management and
+                real estate solutions tailored to your needs!
               </p>
               <a href="#about" className="btn">
                 get started
