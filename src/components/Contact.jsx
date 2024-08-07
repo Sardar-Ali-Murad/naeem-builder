@@ -9,8 +9,8 @@ const Contact = () => {
         <div className="row">
           <iframe
             className="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin"
-            allowfullscreen=""
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.1064120294113!2d-1.872960324077738!3d52.45910024073754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bb8e8544d83b%3A0xb02697f499ecd98a!2s6%20Walford%20Rd%2C%20Sparkbrook%2C%20Birmingham%20B11%201NR%2C%20UK!5e0!3m2!1sen!2s!4v1723050204746!5m2!1sen!2s"
+            allowFullScreen=""
             loading="lazy"
           ></iframe>
 
