@@ -430,31 +430,31 @@ section {
   padding: 1rem 0;
 }
 
-.home .swiper-button-next,
-.home .swiper-button-prev {
-  top: initial;
-  bottom: 0;
-  left: initial;
-  right: 0;
-  height: 7rem;
-  width: 7rem;
-  line-height: 7rem;
-  background: var(--white);
+.swiper-button-next,
+.swiper-button-prev {
+  top: initial !important;
+  bottom: 0 !important;
+  left: initial !important;
+  right: 0 !important;
+  height: 7rem !important;
+  width: 7rem !important;
+  line-height: 7rem !important;
+  background: var(--white) !important;
 }
 
-.home .swiper-button-next:hover,
-.home .swiper-button-prev:hover {
-  background: var(--yellow);
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: var(--yellow) !important;
 }
 
-.home .swiper-button-next::after,
-.home .swiper-button-prev::after {
-  font-size: 2rem;
-  color: var(--black);
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem !important;
+  color: var(--black) !important;
 }
 
-.home .swiper-button-prev {
-  right: 7rem;
+.swiper-button-prev {
+  right: 7rem !important;
 }
 
 .about .row {
@@ -956,9 +956,18 @@ section {
   margin: 0 40px;
 }
 
+.home-section {
+  padding: 2rem 2rem;
+  margin: 0px 7rem;
+}
+
 @media (max-width: 1200px) {
   section {
     padding: 3rem 2rem;
+  }
+  .home-section {
+    padding: 1rem 1rem;
+    margin: 0px 1rem;
   }
 }
 
