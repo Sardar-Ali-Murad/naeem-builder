@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = ({ setShowSidebar }) => {
   return (
@@ -9,10 +10,10 @@ const Header = ({ setShowSidebar }) => {
         </a>
 
         <nav className="navbar">
-          <a href="#home" style={{ textTransform: "lowercase" }}>
+          <Link to="/" style={{ textTransform: "lowercase" }}>
             home
-          </a>
-          <a href="#about">about</a>
+          </Link>
+          <Link to="about">about</Link>
           <a href="#services">services</a>
           <a href="#projects">projects</a>
           <a href="#pricing">pricing</a>

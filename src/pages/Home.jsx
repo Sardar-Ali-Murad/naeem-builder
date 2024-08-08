@@ -1,13 +1,12 @@
 import React from "react";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Services from "../components/Services";
-import Projects from "../components/Projects";
-import Pricing from "../components/Pricing";
-import Contact from "../components/Contact";
-import Partners from "../components/Partners";
+import Hero from "../components/home/Hero";
+import About from "../components/home/About";
+import Services from "../components/home/Services";
+import Projects from "../components/home/Projects";
+import Pricing from "../components/home/Pricing";
+import Contact from "../components/home/Contact";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <Hero />
@@ -16,9 +15,8 @@ const Home = () => {
       <Projects />
       <Pricing />
       <Contact />
-      <Partners />
     </>
   );
 };
 
-export default Home;
+export default HomePage;
