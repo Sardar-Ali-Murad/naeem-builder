@@ -72,6 +72,10 @@ section {
   color: var(--black) !important;
 }
 
+.hidden{
+  overflow: hidden !important;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     top: 50%;
