@@ -4,7 +4,7 @@ import Steps from "../components/about/Steps";
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="about_page_container">
       <About />
       <Steps />
     </div>

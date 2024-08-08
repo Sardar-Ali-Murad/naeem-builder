@@ -4,7 +4,7 @@ import FAQS from "../components/contact/FAQS";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className="contact_page_container">
       <Contact />
       <FAQS />
     </div>

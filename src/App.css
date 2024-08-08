@@ -996,6 +996,10 @@ section {
 
 /* About Page */
 
+.about_page_container{
+  background-color: var(--light-bg);
+}
+
 .about_page .row {
   display: flex;
   flex-wrap: wrap;
@@ -1039,6 +1043,11 @@ section {
 }
 
 /* Contact Page */
+
+.contact_page_container{
+  background-color: var(--light-bg);
+}
+
 
 .contact_page .row {
   display: flex;
