@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Listing = () => {
   return (
@@ -26,7 +27,7 @@ const Listing = () => {
             <form action="" method="post" class="save">
               <button type="submit" name="save" class="far fa-heart"></button>
             </form>
-            <img src="images/house-img-1.webp" alt="" />
+            <img src="images/project-2.jpeg" alt="" />
           </div>
           <h3 class="name">modern flats and appartments</h3>
           <p class="location">
@@ -47,9 +48,9 @@ const Listing = () => {
               <span>750sqft</span>
             </p>
           </div>
-          <a href="view_property.html" class="btn">
+          <Link to="/view-property" class="btn">
             view property
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -72,7 +73,7 @@ const Listing = () => {
             <form action="" method="post" class="save">
               <button type="submit" name="save" class="far fa-heart"></button>
             </form>
-            <img src="images/house-img-2.webp" alt="" />
+            <img src="images/project-3.jpeg" alt="" />
           </div>
           <h3 class="name">modern flats and appartments</h3>
           <p class="location">
@@ -93,9 +94,9 @@ const Listing = () => {
               <span>750sqft</span>
             </p>
           </div>
-          <a href="view_property.html" class="btn">
+          <Link to="/view-property" class="btn">
             view property
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -118,7 +119,7 @@ const Listing = () => {
             <form action="" method="post" class="save">
               <button type="submit" name="save" class="far fa-heart"></button>
             </form>
-            <img src="images/house-img-3.jpg" alt="" />
+            <img src="images/project-1.jpeg" alt="" />
           </div>
           <h3 class="name">modern flats and appartments</h3>
           <p class="location">
@@ -139,9 +140,9 @@ const Listing = () => {
               <span>750sqft</span>
             </p>
           </div>
-          <a href="view_property.html" class="btn">
+          <Link to="/view-property" class="btn">
             view property
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -185,9 +186,9 @@ const Listing = () => {
               <span>750sqft</span>
             </p>
           </div>
-          <a href="view_property.html" class="btn">
+          <Link to="/view-property" class="btn">
             view property
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -231,9 +232,9 @@ const Listing = () => {
               <span>750sqft</span>
             </p>
           </div>
-          <a href="view_property.html" class="btn">
+          <Link to="/view-property" class="btn">
             view property
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -277,9 +278,9 @@ const Listing = () => {
               <span>750sqft</span>
             </p>
           </div>
-          <a href="view_property.html" class="btn">
+          <Link to="/view-property" class="btn">
             view property
-          </a>
+          </Link>
         </div>
       </div>
     </section>

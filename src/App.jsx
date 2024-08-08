@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Partners from "./components/common/Partners";
 import Contact from "./pages/Contact";
 import Listing from "./pages/Listing";
+import ViewProperty from "./pages/SingleProperty";
 
 const App = () => {
   let [showSideBar, setShowSidebar] = React.useState(false);
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/listing" element={<Listing />} />
+        <Route path="/view-property" element={<ViewProperty />} />
       </Routes>
       <Partners />
     </BrowserRouter>

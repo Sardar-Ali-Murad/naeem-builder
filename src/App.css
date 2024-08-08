@@ -1386,6 +1386,130 @@ section {
   text-transform: capitalize;
 }
 
+/* View Property Page */
+
+.view-property .details {
+  background-color: var(--white);
+  box-shadow: var(--box-shodow);
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+.view-property .details .thumb {
+  background-color: var(--black);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.view-property .details .thumb .big-image img {
+  height: 40rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.view-property .details .thumb .small-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.view-property .details .thumb .small-images img {
+  height: 7rem;
+  width: 10rem;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.view-property .details .thumb .small-images img:hover {
+  transform: scale(1.1);
+}
+
+.view-property .details .name {
+  font-size: 2rem;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.view-property .details .location {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.view-property .details .location i {
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+
+.view-property .details .info {
+  display: flex;
+  background-color: var(--light-bg);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.view-property .details .info p {
+  font-size: 1.7rem;
+}
+
+.view-property .details .info p span,
+.view-property .details .info p a {
+  color: var(--light-color);
+}
+
+.view-property .details .info p a:hover {
+  text-decoration: underline;
+}
+
+.view-property .details .info p i {
+  margin-right: 1.5rem;
+  color: var(--main-color);
+}
+
+.view-property .details .title {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 1.5rem;
+  border-bottom: var(--border);
+}
+
+.view-property .details .flex {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.view-property .details .flex .box {
+  flex: 1 1 40rem;
+}
+
+.view-property .details .flex .box p {
+  padding: 0.5rem 0;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.view-property .details .flex .box i {
+  color: var(--main-color);
+  margin-right: 1.5rem;
+}
+
+.view-property .details .description {
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.5;
+}
 
 @media (max-width: 1200px) {
   section {
