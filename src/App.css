@@ -1344,7 +1344,7 @@ section {
   color: var(--main-color);
 }
 
-.services .box-container {
+.services_page .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 30rem);
   gap: 2rem;
@@ -1352,26 +1352,26 @@ section {
   align-items: flex-start;
 }
 
-.services .box-container .box {
+.services_page .box-container .box {
   background-color: var(--white);
   box-shadow: var(--box-shodow);
   padding: 2rem;
   text-align: center;
 }
 
-.services .box-container .box img {
+.services_page .box-container .box img {
   margin: 1rem 0;
   height: 8rem;
 }
 
-.services .box-container .box h3 {
+.services_page .box-container .box h3 {
   font-size: 2rem;
   padding: 1rem 0;
   color: var(--black);
   text-transform: capitalize;
 }
 
-.services .box-container .box p {
+.services_page .box-container .box p {
   line-height: 2;
   font-size: 1.6rem;
   color: var(--light-color);

@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services_page">
       <h1 className="listing_heading">our services</h1>
 
       <div className="box-container">
