@@ -5,19 +5,19 @@ const Header = ({ setShowSidebar }) => {
   return (
     <header className="header">
       <section className="flex">
-        <a href="#" className="logo">
+        <Link to="/" className="logo">
           Naeem<span>Builders</span>
-        </a>
+        </Link>
 
         <nav className="navbar">
           <Link to="/" style={{ textTransform: "lowercase" }}>
             home
           </Link>
           <Link to="about">about</Link>
+          <Link to="contact">contact</Link>
           <a href="#services">services</a>
           <a href="#projects">projects</a>
           <a href="#pricing">pricing</a>
-          <a href="#contact">contact</a>
         </nav>
 
         <div className="icons">

@@ -5,7 +5,8 @@ import SideBar from "./components/common/Sidebar";
 import Header from "./components/common/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Partners from "./components/common/Partners"
+import Partners from "./components/common/Partners";
+import Contact from "./pages/Contact";
 
 const App = () => {
   let [showSideBar, setShowSidebar] = React.useState(false);
@@ -16,6 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Partners />
     </BrowserRouter>
