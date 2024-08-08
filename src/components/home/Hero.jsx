@@ -39,8 +39,8 @@ export default function App() {
                   <div className="content home-section">
                     <h3>making dream come to life</h3>
                     <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Aspernatur beatae iusto pariatur laborum magnam eos!
+                      Bringing your property visions to reality with expert
+                      craftsmanship and personalized service at every step!
                     </p>
                     <a href="#about" className="btn">
                       get started
@@ -58,8 +58,8 @@ export default function App() {
                   <div className="content home-section">
                     <h3>from concept to creation</h3>
                     <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Aspernatur beatae iusto pariatur laborum magnam eos!
+                      Guiding your property journey with innovative design and
+                      meticulous attention to detail, from start to finish!
                     </p>
                     <a href="#about" className="btn">
                       get started

@@ -10,8 +10,7 @@ const Steps = () => {
           <img src="images/step-1.png" alt="" />
           <h3>search property</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            placeat.
+            Find your dream home with our easy-to-use search tools and filters.
           </p>
         </div>
 
@@ -19,8 +18,8 @@ const Steps = () => {
           <img src="images/step-2.png" alt="" />
           <h3>contact agents</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            placeat.
+            Connect with experienced agents ready to assist you every step of
+            the way.
           </p>
         </div>
 
@@ -28,8 +27,8 @@ const Steps = () => {
           <img src="images/step-3.png" alt="" />
           <h3>enjoy property</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            placeat.
+            Move into your new space and start living the life you've always
+            wanted.
           </p>
         </div>
       </div>

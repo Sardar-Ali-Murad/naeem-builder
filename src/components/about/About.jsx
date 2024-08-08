@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -10,13 +11,12 @@ const About = () => {
         <div className="content">
           <h3>why choose us?</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            dolorem provident voluptatum distinctio laborum veritatis vitae
-            suscipit praesentium fugiat unde?
+            Experience unmatched expertise, personalized service, and a
+            commitment to excellence in every aspect of your property needs.
           </p>
-          <a href="contact.html" className="btn">
+          <Link to="/contact" className="btn">
             contact us
-          </a>
+          </Link>
         </div>
       </div>
     </section>

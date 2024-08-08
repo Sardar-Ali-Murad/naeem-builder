@@ -10,9 +10,7 @@ const Header = ({ setShowSidebar }) => {
         </Link>
 
         <nav className="navbar">
-          <Link to="/" style={{ textTransform: "lowercase" }}>
-            home
-          </Link>
+          <Link to="/">home</Link>
           <Link to="about">about</Link>
           <Link to="contact">contact</Link>
           <Link to="listing">listing</Link>
