@@ -51,29 +51,28 @@ const Home = () => {
                 maximum budget <span>*</span>
               </p>
               <select name="minimum" className="input" required>
-                <option value="5000000">5 lac</option>
-                <option value="1000000">10 lac</option>
-                <option value="2000000">20 lac</option>
-                <option value="3000000">30 lac</option>
-                <option value="4000000">40 lac</option>
-                <option value="4000000">40 lac</option>
-                <option value="5000000">50 lac</option>
-                <option value="6000000">60 lac</option>
-                <option value="7000000">70 lac</option>
-                <option value="8000000">80 lac</option>
-                <option value="9000000">90 lac</option>
-                <option value="10000000">1 Cr</option>
-                <option value="20000000">2 Cr</option>
-                <option value="30000000">3 Cr</option>
-                <option value="40000000">4 Cr</option>
-                <option value="50000000">5 Cr</option>
-                <option value="60000000">6 Cr</option>
-                <option value="70000000">7 Cr</option>
-                <option value="80000000">8 Cr</option>
-                <option value="90000000">9 Cr</option>
-                <option value="100000000">10 Cr</option>
-                <option value="150000000">15 Cr</option>
-                <option value="200000000">20 Cr</option>
+                <option value="50000">£50k</option>
+                <option value="100000">£100k</option>
+                <option value="200000">£200k</option>
+                <option value="300000">£300k</option>
+                <option value="400000">£400k</option>
+                <option value="500000">£500k</option>
+                <option value="600000">£600k</option>
+                <option value="700000">£700k</option>
+                <option value="800000">£800k</option>
+                <option value="900000">£900k</option>
+                <option value="1000000">£1m</option>
+                <option value="2000000">£2m</option>
+                <option value="3000000">£3m</option>
+                <option value="4000000">£4m</option>
+                <option value="5000000">£5m</option>
+                <option value="6000000">£6m</option>
+                <option value="7000000">£7m</option>
+                <option value="8000000">£8m</option>
+                <option value="9000000">£9m</option>
+                <option value="10000000">£10m</option>
+                <option value="15000000">£15m</option>
+                <option value="20000000">£20m</option>
               </select>
             </div>
             <div className="box">
@@ -81,29 +80,28 @@ const Home = () => {
                 maximum budget <span>*</span>
               </p>
               <select name="maximum" className="input" required>
-                <option value="5000000">5 lac</option>
-                <option value="1000000">10 lac</option>
-                <option value="2000000">20 lac</option>
-                <option value="3000000">30 lac</option>
-                <option value="4000000">40 lac</option>
-                <option value="4000000">40 lac</option>
-                <option value="5000000">50 lac</option>
-                <option value="6000000">60 lac</option>
-                <option value="7000000">70 lac</option>
-                <option value="8000000">80 lac</option>
-                <option value="9000000">90 lac</option>
-                <option value="10000000">1 Cr</option>
-                <option value="20000000">2 Cr</option>
-                <option value="30000000">3 Cr</option>
-                <option value="40000000">4 Cr</option>
-                <option value="50000000">5 Cr</option>
-                <option value="60000000">6 Cr</option>
-                <option value="70000000">7 Cr</option>
-                <option value="80000000">8 Cr</option>
-                <option value="90000000">9 Cr</option>
-                <option value="100000000">10 Cr</option>
-                <option value="150000000">15 Cr</option>
-                <option value="200000000">20 Cr</option>
+                <option value="50000">£50k</option>
+                <option value="100000">£100k</option>
+                <option value="200000">£200k</option>
+                <option value="300000">£300k</option>
+                <option value="400000">£400k</option>
+                <option value="500000">£500k</option>
+                <option value="600000">£600k</option>
+                <option value="700000">£700k</option>
+                <option value="800000">£800k</option>
+                <option value="900000">£900k</option>
+                <option value="1000000">£1m</option>
+                <option value="2000000">£2m</option>
+                <option value="3000000">£3m</option>
+                <option value="4000000">£4m</option>
+                <option value="5000000">£5m</option>
+                <option value="6000000">£6m</option>
+                <option value="7000000">£7m</option>
+                <option value="8000000">£8m</option>
+                <option value="9000000">£9m</option>
+                <option value="10000000">£10m</option>
+                <option value="15000000">£15m</option>
+                <option value="20000000">£20m</option>
               </select>
             </div>
           </div>

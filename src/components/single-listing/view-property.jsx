@@ -15,23 +15,23 @@ const viewProperty = () => {
             <img src="images/bathroom-img-1.webp" alt="" />
           </div>
         </div>
-        <h3 className="name">modern flats and appartments</h3>
+        <h3 className="name hidden">Contemporary Studio Flat</h3>
         <p className="location">
           <i className="fas fa-map-marker-alt"></i>
-          <span>andheri, mumbai, india - 400104</span>
+          <span>Didsbury, Manchester, England - M20 6TJ</span>
         </p>
         <div className="info">
           <p>
             <i className="fas fa-tag"></i>
-            <span>15 lac</span>
+            <span>£50k</span>
           </p>
           <p>
             <i className="fas fa-user"></i>
-            <span>john deo (owner)</span>
+            <span>Oliver Smith (owner)</span>
           </p>
           <p>
             <i className="fas fa-phone"></i>
-            <a href="tel:1234567890">1234567890</a>
+            <a href="tel:1234567890">+44 7898 769063</a>
           </p>
           <p>
             <i className="fas fa-building"></i>
@@ -158,19 +158,12 @@ const viewProperty = () => {
         </div>
         <h3 className="title">description</h3>
         <p className="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          cupiditate aliquid ipsum recusandae maxime nisi, velit eaque, libero,
-          exercitationem culpa accusamus. Neque dolor quaerat modi saepe facere
-          dignissimos temporibus molestias.
+          Experience the charm of classic elegance in this Victorian townhouse,
+          featuring spacious rooms, intricate architectural details, and modern
+          amenities. Enjoy a blend of historic charm and contemporary
+          convenience, situated in a desirable neighborhood with easy access to
+          local amenities and transport links.
         </p>
-        <form action="" method="post">
-          <input
-            type="submit"
-            value="save property"
-            name="save"
-            className="inline-btn"
-          />
-        </form>
       </div>
     </section>
   );
