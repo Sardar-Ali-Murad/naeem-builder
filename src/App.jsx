@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Partners from "./components/common/Partners";
 import Contact from "./pages/Contact";
+import Listing from "./pages/Listing";
 
 const App = () => {
   let [showSideBar, setShowSidebar] = React.useState(false);
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/listing" element={<Listing />} />
       </Routes>
       <Partners />
     </BrowserRouter>

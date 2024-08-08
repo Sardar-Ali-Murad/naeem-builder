@@ -996,7 +996,7 @@ section {
 
 /* About Page */
 
-.about_page_container{
+.about_page_container {
   background-color: var(--light-bg);
 }
 
@@ -1044,10 +1044,9 @@ section {
 
 /* Contact Page */
 
-.contact_page_container{
+.contact_page_container {
   background-color: var(--light-bg);
 }
-
 
 .contact_page .row {
   display: flex;
@@ -1133,6 +1132,260 @@ section {
 .faq_active h3 {
   background-color: var(--main-color);
 }
+
+/* Listing Page CSS */
+.listing_home {
+  background: url("../public/images/project-2.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.listing_home .center {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listing_home .center form {
+  background-color: var(--white);
+  padding: 2rem;
+  box-shadow: var(--box-shodow);
+  width: 50rem;
+}
+
+.listing_home .center form h3 {
+  padding-bottom: 1rem;
+  text-align: center;
+  color: var(--black);
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+.listing_home .center form .flex {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.listing_home .center form .box {
+  flex: 1 1 20rem;
+}
+
+.listing_home .center form .box .input {
+  width: 100%;
+  border: var(--border);
+  padding: 1.4rem;
+  color: var(--black);
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+
+.listing_home .center form .box p {
+  color: var(--light-color);
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+.listing_home .center form .box p span {
+  color: var(--main-color);
+}
+
+.listings .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.listings .box-container .box {
+  background-color: var(--white);
+  box-shadow: var(--box-shodow);
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+.listings .box-container .box .admin {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.listings .box-container .box .admin h3 {
+  height: 4.5rem;
+  line-height: 4.4rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: var(--black);
+  background-color: var(--light-bg);
+  text-align: center;
+}
+
+.listings .box-container .box .admin p {
+  font-size: 1.7rem;
+  color: var(--black);
+  padding-bottom: 0.3rem;
+}
+
+.listings .box-container .box .admin span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.listings .box-container .box .thumb {
+  position: relative;
+  height: 20rem;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.listings .box-container .box .thumb img {
+  height: 100%;
+  width: 100%;
+  transition: 0.2s linear;
+}
+
+.listings .box-container .box:hover .thumb img {
+  transform: scale(1.1);
+}
+
+.listings .box-container .box .thumb .total-images {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--white);
+  padding: 0.5rem 1.5rem;
+  font-size: 1.6rem;
+  z-index: 1;
+}
+
+.listings .box-container .box .thumb .total-images i {
+  margin-right: 0.7rem;
+}
+
+.listings .box-container .box .thumb .type {
+  position: absolute;
+  bottom: 1rem;
+  left: 0.7rem;
+  z-index: 1;
+}
+
+.listings .box-container .box .thumb .type span {
+  margin-right: 0.7rem;
+  padding: 0.5rem 1.5rem;
+  color: var(--white);
+  background-color: var(--main-color);
+  font-size: 1.6rem;
+}
+
+.listings .box-container .box .thumb .save {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+}
+
+.listings .box-container .box .thumb .save button {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--white);
+  padding: 0.7rem 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.listings .box-container .box .thumb .save button:hover {
+  background-color: var(--main-color);
+}
+
+.listings .box-container .box .name {
+  font-size: 2rem;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.listings .box-container .box .location {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.listings .box-container .box .location i {
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+
+.listings .box-container .box .flex {
+  display: flex;
+  background-color: var(--light-bg);
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.listings .box-container .box .flex p {
+  font-size: 1.6rem;
+  flex: 1 1 4rem;
+}
+
+.listings .box-container .box .flex p span {
+  color: var(--light-color);
+}
+
+.listings .box-container .box .flex p i {
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.services .box-container .box {
+  background-color: var(--white);
+  box-shadow: var(--box-shodow);
+  padding: 2rem;
+  text-align: center;
+}
+
+.services .box-container .box img {
+  margin: 1rem 0;
+  height: 8rem;
+}
+
+.services .box-container .box h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.services .box-container .box p {
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  padding-top: 0.5rem;
+}
+
+.listing_heading {
+  text-align: center;
+  padding-bottom: 2.5rem;
+  font-size: 3rem;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
 
 @media (max-width: 1200px) {
   section {

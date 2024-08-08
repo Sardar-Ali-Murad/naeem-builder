@@ -15,9 +15,7 @@ const Header = ({ setShowSidebar }) => {
           </Link>
           <Link to="about">about</Link>
           <Link to="contact">contact</Link>
-          <a href="#services">services</a>
-          <a href="#projects">projects</a>
-          <a href="#pricing">pricing</a>
+          <Link to="listing">listing</Link>
         </nav>
 
         <div className="icons">
