@@ -17,9 +17,9 @@ const Projects = () => {
         <h1 className="heading"> our projects </h1>
 
         <div className="box-container" ref={galleryRef}>
-          <a href="images/project-1.jpg" className="box">
+          <a href="images/project-1.jpeg" className="box">
             <div className="image">
-              <img src="images/project-1.jpg" alt="" />
+              <img src="images/project-1.jpeg" alt="" />
             </div>
             <div className="content">
               <div className="info">
@@ -30,9 +30,9 @@ const Projects = () => {
             </div>
           </a>
 
-          <a href="images/project-2.jpg" className="box">
+          <a href="images/project-2.jpeg" className="box">
             <div className="image">
-              <img src="images/project-2.jpg" alt="" />
+              <img src="images/project-2.jpeg" alt="" />
             </div>
             <div className="content">
               <div className="info">
@@ -43,9 +43,9 @@ const Projects = () => {
             </div>
           </a>
 
-          <a href="images/project-3.jpg" className="box">
+          <a href="images/project-3.jpeg" className="box">
             <div className="image">
-              <img src="images/project-3.jpg" alt="" />
+              <img src="images/project-3.jpeg" alt="" />
             </div>
             <div className="content">
               <div className="info">
@@ -56,9 +56,9 @@ const Projects = () => {
             </div>
           </a>
 
-          <a href="images/project-4.jpg" className="box">
+          <a href="images/project-4.jpeg" className="box">
             <div className="image">
-              <img src="images/project-4.jpg" alt="" />
+              <img src="images/project-4.jpeg" alt="" />
             </div>
             <div className="content">
               <div className="info">
@@ -69,9 +69,9 @@ const Projects = () => {
             </div>
           </a>
 
-          <a href="images/project-5.jpg" className="box">
+          <a href="images/project-5.jpeg" className="box">
             <div className="image">
-              <img src="images/project-5.jpg" alt="" />
+              <img src="images/project-5.jpeg" alt="" />
             </div>
             <div className="content">
               <div className="info">
