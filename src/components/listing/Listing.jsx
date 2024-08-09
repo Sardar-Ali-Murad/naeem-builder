@@ -236,7 +236,7 @@ const Listing = () => {
           <h3 className="name hidden">Charming Cottage</h3>
           <p className="location">
             <i className="fas fa-map-marker-alt"></i>
-            <span>Cotswolds, Gloucestershire, England - GL54 1AL</span>
+            <span>Notting Hill, London, England - W11 2PA</span>
           </p>
           <div className="flex">
             <p>

@@ -963,7 +963,7 @@ section {
 
 .steps .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 30rem);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
   justify-content: center;
   align-items: flex-start;
@@ -1193,7 +1193,7 @@ section {
 
 .listings .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 35rem);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
   justify-content: center;
   align-items: flex-start;
@@ -1346,7 +1346,7 @@ section {
 
 .services_page .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 30rem);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
   justify-content: center;
   align-items: flex-start;
