@@ -9,6 +9,7 @@ import Partners from "./components/common/Partners";
 import Contact from "./pages/Contact";
 import Listing from "./pages/Listing";
 import ViewProperty from "./pages/SingleProperty";
+import Chat from "./components/chat/Chat";
 
 const App = () => {
   let [showSideBar, setShowSidebar] = React.useState(false);
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/view-property" element={<ViewProperty />} />
       </Routes>
       <Partners />
+      <Chat />
     </BrowserRouter>
   );
 };
