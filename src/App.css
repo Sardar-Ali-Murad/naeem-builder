@@ -90,11 +90,21 @@ section {
   }
 }
 
-.error{
+.error {
   color: red;
   position: relative;
   top: -8px;
   font-size: 14px;
+}
+
+.slider-1 {
+  background: url(images/home-slide-1.jpg) no-repeat;
+}
+.slider-2 {
+  background: url(images/home-slide-2.jpg) no-repeat;
+}
+.slider-3 {
+  background: url(images/home-slide-3.jpg) no-repeat;
 }
 
 .header {
@@ -1869,6 +1879,30 @@ html[dir="rtl"] .pe-3 {
   }
   .services_page_home .box-container {
     grid-template-columns: repeat(auto-fit, 100%);
+  }
+  .slider-1 {
+    background: url(images/project-6.jpeg) no-repeat;
+  }
+  .slider-2 {
+    background: url(images/project-2.jpeg) no-repeat;
+  }
+  .slider-3 {
+    background: url(images/project-3.jpeg) no-repeat;
+  }
+  .home .slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background: none;
+  }
+
+  .home .slide .content {
+    background-color: var(--light-bg);
+    border-radius: 8px;
   }
 }
 

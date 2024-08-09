@@ -11,18 +11,10 @@ export default function App() {
           <div className="swiper-wrapper">
             <Swiper navigation={true} modules={[Navigation]}>
               <SwiperSlide>
-                <div
-                  className="slide"
-                  style={{
-                    background: "url(images/home-slide-1.jpg) no-repeat",
-                  }}
-                >
+                <div className="slide slider-1">
                   <div className="content home-section">
-                    <h3>we provide best service</h3>
-                    <p>
-                      Experience unparalleled excellence in property management
-                      and real estate solutions tailored to your needs!
-                    </p>
+                    <h3>Naeem Marwan Builders</h3>
+                    <p>Construction & Renovation in Birmingham & Manchester</p>
                     <a href="#about" className="btn">
                       get started
                     </a>
@@ -30,12 +22,7 @@ export default function App() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div
-                  className="swiper-slide slide"
-                  style={{
-                    background: "url(images/home-slide-2.jpg) no-repeat",
-                  }}
-                >
+                <div className="swiper-slide slide slider-2">
                   <div className="content home-section">
                     <h3>making dream come to life</h3>
                     <p>
@@ -49,12 +36,7 @@ export default function App() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div
-                  className="swiper-slide slide"
-                  style={{
-                    background: "url(images/home-slide-3.jpg) no-repeat",
-                  }}
-                >
+                <div className="swiper-slide slide slider-3">
                   <div className="content home-section">
                     <h3>from concept to creation</h3>
                     <p>
