@@ -1276,8 +1276,8 @@ section {
 .listings .box-container .box .thumb .type span {
   margin-right: 0.7rem;
   padding: 0.5rem 1.5rem;
-  color: var(--white);
-  background-color: var(--main-color);
+  color: var(--black);
+  background-color: var(--light-bg);
   font-size: 1.6rem;
 }
 

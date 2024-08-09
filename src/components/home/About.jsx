@@ -71,17 +71,17 @@ const About = () => {
         </div>
 
         <div className="box">
-          <h3>210+</h3>
+          <h3>100+</h3>
           <p>successfull deals</p>
         </div>
 
         <div className="box">
-          <h3>200+</h3>
+          <h3>80+</h3>
           <p>satisfied customers</p>
         </div>
 
         <div className="box">
-          <h3>10+</h3>
+          <h3>6+</h3>
           <p>active agents</p>
         </div>
       </div>

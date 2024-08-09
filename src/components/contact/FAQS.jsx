@@ -1,44 +1,46 @@
 import React from "react";
 
 const FAQS = () => {
-  let [items, setItems] = React.useState([
+  let items = [
     {
       id: 1,
-      heading: "how to cancel booking?",
+      heading: "How do I schedule a consultation?",
       paragraph:
-        "To cancel your booking, simply visit your account dashboard, navigate to the bookings section, and select the booking you wish to cancel. Follow the prompts to confirm your cancellation. Our system will process your request immediately, ensuring a smooth experience.",
+        "To schedule a consultation, simply visit our contact page and fill out the consultation request form. You can also reach out to us directly via phone or email. Our team will get in touch to confirm the details and schedule your consultation at a time that suits you.",
     },
     {
       id: 2,
-      heading: "when will I get the possession?",
+      heading: "What is the timeline for completing a project?",
       paragraph:
-        "Possession timelines vary depending on the property's status and any contractual agreements. Typically, possession is granted once all legal and financial requirements are fulfilled. You will receive a notification from our team with the exact date and necessary details.",
+        "The timeline for completing a project varies depending on the scope and complexity of the work. After our initial consultation, we will provide you with an estimated timeline tailored to your specific project. We aim to complete all work efficiently while maintaining the highest quality standards.",
     },
     {
       id: 3,
-      heading: "where can I pay the rent?",
+      heading: "How do I make payments for the project?",
       paragraph:
-        "Rent payments can be made easily through our secure online payment portal. Simply log in to your account, navigate to the rent payment section, and choose your preferred payment method. We support multiple payment options for your convenience.",
+        "Payments can be made through our secure online payment portal or via bank transfer. After signing the contract, we will provide you with detailed payment instructions. We offer flexible payment plans to accommodate your budget and project timeline.",
     },
     {
       id: 4,
-      heading: "how to contact with the buyers?",
+      heading: "How can I check the progress of my construction or renovation?",
       paragraph:
-        "To contact buyers, go to your listings dashboard and select the property you're interested in. You'll find a list of potential buyers who have shown interest. Click on their profiles to send a message or schedule a meeting directly through our platform.",
+        "You can monitor the progress of your project by logging into your account on our website. We provide regular updates, including photos and reports, so you can stay informed throughout the construction or renovation process.",
     },
     {
       id: 5,
-      heading: "why my listing not showing up?",
+      heading: "What should I do if I want to make changes to the project?",
       paragraph:
-        "If your listing is not showing up, it may be due to incomplete information or pending verification. Ensure all details are accurate and up-to-date. Our team reviews listings regularly, and approved listings are published within 24 hours.",
+        "If you wish to make changes to the project, please contact us as soon as possible. We will discuss your new requirements and provide an updated quote and timeline. It's important to communicate changes early to avoid delays and additional costs.",
     },
     {
       id: 6,
-      heading: "how to promote my listing?",
+      heading:
+        "Do you offer warranties on your construction and renovation work?",
       paragraph:
-        "Promote your listing by using our premium advertising options. You can boost your listing's visibility through targeted ads or featured placements on our homepage. Access these options in your account under the 'Promotions' tab to reach more potential buyers.",
+        "Yes, we offer warranties on all our construction and renovation work. The warranty period and coverage details will be outlined in your contract. Our commitment to quality ensures that you receive lasting results and peace of mind.",
     },
-  ]);
+  ];
+
   return (
     <section className="faq" id="faq">
       <h1 className="heading">FAQ</h1>
