@@ -10,11 +10,14 @@ import Contact from "./pages/Contact";
 import Listing from "./pages/Listing";
 import ViewProperty from "./pages/SingleProperty";
 import Chat from "./components/chat/Chat";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   let [showSideBar, setShowSidebar] = React.useState(false);
   return (
     <BrowserRouter>
+      <ToastContainer />
       <Header setShowSidebar={setShowSidebar} />
       <SideBar showSideBar={showSideBar} setShowSidebar={setShowSidebar} />
       <Routes>

@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
   const initialValues = {
@@ -31,21 +32,16 @@ const ContactForm = () => {
 
   const handleSubmit = (values, { resetForm }) => {
     emailjs
-      .send(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
-        values,
-        "YOUR_USER_ID" // Replace with your EmailJS user ID
-      )
+      .send("service_ijyrlcy", "template_3za67cj", values, "Y-d1kMGQ-xCp-FA22")
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
           resetForm();
-          alert("Message sent successfully!");
+          toast.success("Message sent successfully!");
         },
         (err) => {
           console.log("FAILED...", err);
-          alert("Failed to send message. Please try again later.");
+          toast.error("Failed to send message. Please try again later.");
         }
       );
   };
