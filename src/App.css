@@ -90,6 +90,13 @@ section {
   }
 }
 
+.error{
+  color: red;
+  position: relative;
+  top: -8px;
+  font-size: 14px;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;

@@ -1,6 +1,55 @@
 import React from "react";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const initialValues = {
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  };
+
+  const validationSchema = Yup.object({
+    name: Yup.string()
+      .max(50, "Must be 50 characters or less")
+      .required("Name is required"),
+    email: Yup.string()
+      .email("Invalid email address")
+      .max(50, "Must be 50 characters or less")
+      .required("Email is required"),
+    phone: Yup.number()
+      .typeError("Must be a valid number")
+      .max(9999999999, "Must be 10 digits or less")
+      .min(0, "Number cannot be negative")
+      .required("Phone number is required"),
+    message: Yup.string()
+      .max(1000, "Must be 1000 characters or less")
+      .required("Message is required"),
+  });
+
+  const handleSubmit = (values, { resetForm }) => {
+    emailjs
+      .send(
+        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
+        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        values,
+        "YOUR_USER_ID" // Replace with your EmailJS user ID
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          resetForm();
+          alert("Message sent successfully!");
+        },
+        (err) => {
+          console.log("FAILED...", err);
+          alert("Failed to send message. Please try again later.");
+        }
+      );
+  };
+
   return (
     <div className="contact-container">
       <section className="contact" id="contact">
@@ -14,25 +63,75 @@ const Contact = () => {
             loading="lazy"
           ></iframe>
 
-          <form onSubmit={(event) => event.preventDefault()}>
-            <h3>get in touch</h3>
-            <input type="text" placeholder="name" className="box" />
-            <input type="email" placeholder="email" className="box" />
-            <input type="number" placeholder="phone" className="box" />
-            <textarea
-              name=""
-              placeholder="message"
-              className="box"
-              id=""
-              cols="30"
-              rows="10"
-            ></textarea>
-            <input
-              value="send message"
-              className="btn"
-              onClick={(event) => event.preventDefault()}
-            />
-          </form>
+          <Formik
+            initialValues={initialValues}
+            validationSchema={validationSchema}
+            onSubmit={handleSubmit}
+          >
+            {({ isSubmitting }) => (
+              <Form>
+                <h3>get in touch</h3>
+
+                <div>
+                  <Field
+                    type="text"
+                    name="name"
+                    placeholder="name"
+                    className="box"
+                  />
+                  <ErrorMessage name="name" component="div" className="error" />
+                </div>
+
+                <div>
+                  <Field
+                    type="email"
+                    name="email"
+                    placeholder="email"
+                    className="box"
+                  />
+                  <ErrorMessage
+                    name="email"
+                    component="div"
+                    className="error"
+                  />
+                </div>
+
+                <div>
+                  <Field
+                    type="number"
+                    name="phone"
+                    placeholder="phone"
+                    className="box"
+                  />
+                  <ErrorMessage
+                    name="phone"
+                    component="div"
+                    className="error"
+                  />
+                </div>
+
+                <div>
+                  <Field
+                    as="textarea"
+                    name="message"
+                    placeholder="message"
+                    cols="30"
+                    rows="10"
+                    className="box"
+                  />
+                  <ErrorMessage
+                    name="message"
+                    component="div"
+                    className="error"
+                  />
+                </div>
+
+                <button type="submit" disabled={isSubmitting} className="btn">
+                  send message
+                </button>
+              </Form>
+            )}
+          </Formik>
         </div>
       </section>
     </div>

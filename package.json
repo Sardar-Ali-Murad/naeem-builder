@@ -12,11 +12,14 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.4.6",
     "lightgallery": "^2.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
-    "swiper": "^10.0.0"
+    "swiper": "^10.0.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
