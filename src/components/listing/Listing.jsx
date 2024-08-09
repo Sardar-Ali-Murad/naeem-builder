@@ -18,22 +18,12 @@ const Listing = () => {
                 </div>
               </div>
               <div className="thumb">
-                <p className="total-images">
-                  <i className="far fa-image"></i>
-                  <span>4</span>
-                </p>
                 <p className="type">
                   {card.type.map((t, index) => (
                     <span key={index}>{t}</span>
                   ))}
                 </p>
-                <form action="" method="post" className="save">
-                  <button
-                    type="submit"
-                    name="save"
-                    className="far fa-heart"
-                  ></button>
-                </form>
+
                 <img src={card.imageSrc} alt="" />
               </div>
               <h3 className="name hidden">{card.name}</h3>
