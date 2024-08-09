@@ -4,55 +4,76 @@ const Pricing = () => {
   return (
     <div className="pricing-container">
       <section className="pricing" id="pricing">
-        <h1 className="heading"> our pricing </h1>
+        <h1 className="heading">Our Pricing</h1>
 
         <div className="box-container">
           <div className="box">
-            <i className="fas fa-home"></i>
-            <h3>basic plan</h3>
+            <i className="fas fa-tools"></i>
+            <h3>Basic Plan</h3>
             <div className="price">
-              <span>£</span>250<span>/mo</span>
+              <span>£</span>300<span>/project</span>
             </div>
             <div className="list">
-              <p>property listing</p>
-              <p>Basic Marketing</p>
-              <p>Rent Collection</p>
-              <p>Tenant Screening</p>
-              <p>Maintenance Requests</p>
+              <p>Initial Consultation & Site Visit</p>
+              <p>Basic Design and Planning</p>
+              <p>Material Sourcing Assistance</p>
+              <p>Construction & Renovation Advisory</p>
+              <p>Final Inspection</p>
             </div>
-            <a className="btn">choose plan</a>
+            <a
+              href={`https://wa.me/447898769063`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              choose plan
+            </a>
+          </div>
+
+          <div className="box">
+            <i className="fas fa-hammer"></i>
+            <h3>Premium Plan</h3>
+            <div className="price">
+              <span>£</span>750<span>/project</span>
+            </div>
+            <div className="list">
+              <p>Comprehensive Design & Planning</p>
+              <p>Material Procurement & Delivery</p>
+              <p>Full Construction Management</p>
+              <p>Quality Assurance & Safety Checks</p>
+              <p>Post-Construction Support</p>
+            </div>
+            <a
+              href={`https://wa.me/447898769063`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              choose plan
+            </a>
           </div>
 
           <div className="box">
             <i className="fas fa-building"></i>
-            <h3>premium plan</h3>
+            <h3>Ultimate Plan</h3>
             <div className="price">
-              <span>£</span>650<span>/mo</span>
+              <span>£</span>1500<span>/project</span>
             </div>
             <div className="list">
-              <p>Enhanced Property Listing</p>
-              <p>Advanced Marketing Strategies</p>
-              <p>Premium Rent Collection</p>
-              <p>Comprehensive Tenant Screening</p>
-              <p>Regular Property Inspections</p>
+              <p>Custom Design & Architectural Services</p>
+              <p>High-End Material Sourcing</p>
+              <p>Full Turnkey Construction Management</p>
+              <p>Premium Quality Assurance & Control</p>
+              <p>Extended Post-Construction Support</p>
             </div>
-            <a className="btn">choose plan</a>
-          </div>
-
-          <div className="box">
-            <i className="fas fa-city"></i>
-            <h3>ultimate plan</h3>
-            <div className="price">
-              <span>£</span>1250<span>/mo</span>
-            </div>
-            <div className="list">
-              <p>Featured Property Listings</p>
-              <p>High-Exposure Marketing Campaigns</p>
-              <p>Full-Service Rent Management</p>
-              <p>In-Depth Tenant Screening</p>
-              <p>24/7 Property Management and Support</p>
-            </div>
-            <a className="btn">choose plan</a>
+            <a
+              href={`https://wa.me/447898769063`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              choose plan
+            </a>
           </div>
         </div>
       </section>
