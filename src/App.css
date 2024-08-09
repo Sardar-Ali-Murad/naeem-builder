@@ -98,15 +98,14 @@ section {
 }
 
 .slider-1 {
-  background: url(images/home-slide-1.jpg) no-repeat;
+  background: url(images/hero.jpeg) no-repeat;
 }
 .slider-2 {
-  background: url(images/home-slide-2.jpg) no-repeat;
+  background: url(images/project-2.jpeg) no-repeat;
 }
 .slider-3 {
-  background: url(images/home-slide-3.jpg) no-repeat;
+  background: url(images/project-3.jpeg) no-repeat;
 }
-
 .header {
   position: -webkit-sticky;
   position: sticky;
