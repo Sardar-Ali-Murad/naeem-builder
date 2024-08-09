@@ -420,17 +420,11 @@ section {
   left: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(var(--white)),
-    to(transparent)
-  );
-  background: linear-gradient(90deg, var(--white), transparent);
 }
 
 .home .slide .content {
+  border-radius: 8px;
+  background-color: var(--light-bg);
   width: 50rem;
   position: relative;
 }
