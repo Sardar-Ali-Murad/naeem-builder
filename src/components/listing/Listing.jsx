@@ -50,7 +50,7 @@ const Listing = () => {
                   <span>{card.details.area}</span>
                 </p>
               </div>
-              <Link to={`/view-property?id=${card.id}`} className="btn">
+              <Link to={`/view-property?projectId=${card.id}`} className="btn">
                 view project
               </Link>
             </div>

@@ -1,14 +1,22 @@
 import React from "react";
 import data from "../listing/data";
+import { useSearchParams } from "react-router-dom";
 
 const viewProperty = () => {
   let [currentItem, setCurrentItem] = React.useState({});
+  const [searchParams, setSearchParams] = useSearchParams();
+  const projectId = searchParams.get("projectId");
+  React.useEffect(() => {
+    setCurrentItem(
+      data?.find((singleItem) => Number(singleItem?.id) === Number(projectId))
+    );
+  }, [projectId]);
   return (
-    <section className="view-property">
-      <div className="details">
-        <div className="thumb">
-          <div className="big-image">
-            <img src="images/house-img-1.webp" alt="" />
+    <section class="view-property">
+      <div class="details">
+        <div class="thumb">
+          <div class="big-image">
+            <img src={currentItem?.imageSrc} alt="Modern Home Renovation" />
           </div>
           <div className="small-images">
             <img src="images/house-img-1.webp" alt="" />
@@ -17,155 +25,68 @@ const viewProperty = () => {
             <img src="images/bathroom-img-1.webp" alt="" />
           </div>
         </div>
-        <h3 className="name hidden">Contemporary Studio Flat</h3>
-        <p className="location">
-          <i className="fas fa-map-marker-alt"></i>
-          <span>Didsbury, Manchester, England - M20 6TJ</span>
+
+        <h3 class="name hidden">{currentItem?.name}</h3>
+
+        <p class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>{currentItem?.location}</span>
         </p>
-        <div className="info">
+
+        <div class="info">
           <p>
-            <i className="fas fa-tag"></i>
-            <span>£50k</span>
+            <strong>Owner:</strong> {currentItem?.extraDetails?.owner}
           </p>
           <p>
-            <i className="fas fa-user"></i>
-            <span>Oliver Smith (owner)</span>
+            <strong>Phone:</strong> {currentItem?.extraDetails?.phone}
           </p>
           <p>
-            <i className="fas fa-phone"></i>
-            <a href="tel:1234567890">+44 7898 769063</a>
+            <strong>Date:</strong> {currentItem?.extraDetails?.date}
           </p>
           <p>
-            <i className="fas fa-building"></i>
-            <span>flat</span>
+            <strong>Site Type:</strong> {currentItem?.extraDetails?.siteType}
           </p>
           <p>
-            <i className="fas fa-house"></i>
-            <span>sale</span>
-          </p>
-          <p>
-            <i className="fas fa-calendar"></i>
-            <span>10-11-2022</span>
+            <strong>Project Type:</strong>{" "}
+            {currentItem?.extraDetails?.projectType}
           </p>
         </div>
-        <h3 className="title">details</h3>
-        <div className="flex">
-          <div className="box">
-            <p>
-              <i>rooms :</i>
-              <span>2 BHK</span>
-            </p>
-            <p>
-              <i>deposit amount :</i>
-              <span>0</span>
-            </p>
-            <p>
-              <i>status :</i>
-              <span>ready to move</span>
-            </p>
-            <p>
-              <i>bedroom :</i>
-              <span>3</span>
-            </p>
-            <p>
-              <i>bathroom :</i>
-              <span>2</span>
-            </p>
-            <p>
-              <i>balcony :</i>
-              <span>1</span>
-            </p>
-          </div>
-          <div className="box">
-            <p>
-              <i>carpet area :</i>
-              <span>750sqft</span>
-            </p>
-            <p>
-              <i>age :</i>
-              <span>3 years</span>
-            </p>
-            <p>
-              <i>room floor :</i>
-              <span>3</span>
-            </p>
-            <p>
-              <i>total floors :</i>
-              <span>22</span>
-            </p>
-            <p>
-              <i>furnished :</i>
-              <span>semi-furnished</span>
-            </p>
-            <p>
-              <i>loan :</i>
-              <span>available</span>
-            </p>
-          </div>
+
+        <div class="descriptions">
+          <h4 className="name hidden">Project Description</h4>
+          <p style={{ fontSize: "15px" }}>
+            {currentItem?.extraDetails?.description}
+          </p>
         </div>
-        <h3 className="title">amenities</h3>
-        <div className="flex">
-          <div className="box">
-            <p>
-              <i className="fas fa-check"></i>
-              <span>lifts</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>security guards</span>
-            </p>
-            <p>
-              <i className="fas fa-times"></i>
-              <span>play ground</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>gardens</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>water supply</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>power backup</span>
-            </p>
-          </div>
-          <div className="box">
-            <p>
-              <i className="fas fa-check"></i>
-              <span>parking area</span>
-            </p>
-            <p>
-              <i className="fas fa-times"></i>
-              <span>gym</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>shopping mall</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>hospital</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>schools</span>
-            </p>
-            <p>
-              <i className="fas fa-check"></i>
-              <span>market area</span>
-            </p>
-          </div>
+
+        <div class="amenities">
+          <h4 className="name hidden">Amenities Provided</h4>
+          <ul>
+            {currentItem?.extraDetails?.amenities?.map((singleItem, index) => {
+              return (
+                <li key={index} style={{ fontSize: "15px" }}>
+                  {singleItem}
+                </li>
+              );
+            })}
+          </ul>
         </div>
-        <h3 className="title">description</h3>
-        <p className="description">
-          Experience the charm of classic elegance in this Victorian townhouse,
-          featuring spacious rooms, intricate architectural details, and modern
-          amenities. Enjoy a blend of historic charm and contemporary
-          convenience, situated in a desirable neighborhood with easy access to
-          local amenities and transport links.
-        </p>
+
+        <div class="previous-state">
+          <h4 className="name hidden">Previous State</h4>
+          <ul>
+            {currentItem?.extraDetails?.previousState?.map((state, index) => {
+              return (
+                <li key={index} style={{ fontSize: "15px" }}>
+                  <strong style={{ fontSize: "15px", marginRight: "5px" }}>
+                    {state?.feature?.toUpperCase()}:
+                  </strong>
+                  {state?.state}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </section>
   );
