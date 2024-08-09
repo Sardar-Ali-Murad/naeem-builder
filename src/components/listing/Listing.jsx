@@ -25,7 +25,11 @@ const Listing = () => {
               <span>sale</span>
             </p>
             <form action="" method="post" className="save">
-              <button type="submit" name="save" className="far fa-heart"></button>
+              <button
+                type="submit"
+                name="save"
+                className="far fa-heart"
+              ></button>
             </form>
             <img src="images/project-2.jpeg" alt="" />
           </div>
@@ -71,7 +75,11 @@ const Listing = () => {
               <span>sale</span>
             </p>
             <form action="" method="post" className="save">
-              <button type="submit" name="save" className="far fa-heart"></button>
+              <button
+                type="submit"
+                name="save"
+                className="far fa-heart"
+              ></button>
             </form>
             <img src="images/project-3.jpeg" alt="" />
           </div>
@@ -117,7 +125,11 @@ const Listing = () => {
               <span>sale</span>
             </p>
             <form action="" method="post" className="save">
-              <button type="submit" name="save" className="far fa-heart"></button>
+              <button
+                type="submit"
+                name="save"
+                className="far fa-heart"
+              ></button>
             </form>
             <img src="images/project-1.jpeg" alt="" />
           </div>
@@ -163,9 +175,13 @@ const Listing = () => {
               <span>sale</span>
             </p>
             <form action="" method="post" className="save">
-              <button type="submit" name="save" className="far fa-heart"></button>
+              <button
+                type="submit"
+                name="save"
+                className="far fa-heart"
+              ></button>
             </form>
-            <img src="images/house-img-4.webp" alt="" />
+            <img src="images/project-4.jpeg" alt="" />
           </div>
           <h3 className="name hidden">Luxury Penthouse Apartment</h3>
           <p className="location">
@@ -209,9 +225,13 @@ const Listing = () => {
               <span>sale</span>
             </p>
             <form action="" method="post" className="save">
-              <button type="submit" name="save" className="far fa-heart"></button>
+              <button
+                type="submit"
+                name="save"
+                className="far fa-heart"
+              ></button>
             </form>
-            <img src="images/house-img-5.webp" alt="" />
+            <img src="images/project-7.jpeg" alt="" />
           </div>
           <h3 className="name hidden">Charming Cottage</h3>
           <p className="location">
@@ -255,9 +275,13 @@ const Listing = () => {
               <span>sale</span>
             </p>
             <form action="" method="post" className="save">
-              <button type="submit" name="save" className="far fa-heart"></button>
+              <button
+                type="submit"
+                name="save"
+                className="far fa-heart"
+              ></button>
             </form>
-            <img src="images/house-img-6.webp" alt="" />
+            <img src="images/project-6.jpeg" alt="" />
           </div>
           <h3 className="name hidden">Elegant Victorian Townhouse</h3>
           <p className="location">
