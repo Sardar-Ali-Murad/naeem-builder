@@ -5,6 +5,8 @@ import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 
 const ContactForm = () => {
+  const [isLoading, setIsLoading] = React.useState(false);
+
   const initialValues = {
     name: "",
     email: "",
@@ -22,7 +24,6 @@ const ContactForm = () => {
       .required("Email is required"),
     number: Yup.number()
       .typeError("Must be a valid number")
-      .max(9999999999, "Must be 10 digits or less")
       .min(0, "Number cannot be negative")
       .required("Number is required"),
     message: Yup.string()
@@ -31,6 +32,8 @@ const ContactForm = () => {
   });
 
   const handleSubmit = (values, { resetForm }) => {
+    if (isLoading) return;
+    setIsLoading(true);
     emailjs
       .send("service_ijyrlcy", "template_3za67cj", values, "Y-d1kMGQ-xCp-FA22")
       .then(
@@ -43,7 +46,10 @@ const ContactForm = () => {
           console.log("FAILED...", err);
           toast.error("Failed to send message. Please try again later.");
         }
-      );
+      )
+      .finally(() => {
+        setIsLoading(false);
+      });
   };
 
   return (
@@ -108,7 +114,7 @@ const ContactForm = () => {
               </div>
 
               <button type="submit" disabled={isSubmitting} className="btn">
-                send message
+                {isLoading ? "Loading..." : "send message"}
               </button>
             </Form>
           )}
