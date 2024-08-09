@@ -82,9 +82,9 @@ const Projects = () => {
             </div>
           </a>
 
-          <a href="images/project-6.jpg" className="box">
+          <a href="images/project-6.jpeg" className="box">
             <div className="image">
-              <img src="images/project-6.jpg" alt="" />
+              <img src="images/project-6.jpeg" alt="" />
             </div>
             <div className="content">
               <div className="info">
