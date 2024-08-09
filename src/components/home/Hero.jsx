@@ -11,7 +11,15 @@ export default function App() {
           <div className="swiper-wrapper">
             <Swiper navigation={true} modules={[Navigation]}>
               <SwiperSlide>
-                <div className="slide slider-1">
+                <div className="slide">
+                  <img
+                    src="images/project-2.jpeg"
+                    style={{
+                      position: "absolute",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
                   <div className="content home-section">
                     <h3>Naeem Marwan Builders</h3>
                     <p>Construction & Renovation in Birmingham & Manchester</p>
@@ -22,7 +30,15 @@ export default function App() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="swiper-slide slide slider-2">
+                <div className=" slide">
+                  <img
+                    src="images/project-1.jpeg"
+                    style={{
+                      position: "absolute",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
                   <div className="content home-section">
                     <h3>making dream come to life</h3>
                     <p>
@@ -36,7 +52,15 @@ export default function App() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="swiper-slide slide slider-3">
+                <div className="slide">
+                  <img
+                    src="images/project-4.jpeg"
+                    style={{
+                      position: "absolute",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
                   <div className="content home-section">
                     <h3>from concept to creation</h3>
                     <p>

@@ -1873,15 +1873,7 @@ html[dir="rtl"] .pe-3 {
   .services_page_home .box-container {
     grid-template-columns: repeat(auto-fit, 100%);
   }
-  .slider-1 {
-    background: url(images/hero.jpeg) no-repeat;
-  }
-  .slider-2 {
-    background: url(images/project-2.jpeg) no-repeat;
-  }
-  .slider-3 {
-    background: url(images/project-3.jpeg) no-repeat;
-  }
+
   .home .slide::before {
     content: "";
     position: absolute;
