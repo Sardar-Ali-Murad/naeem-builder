@@ -465,11 +465,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* -webkit-box-align: center; */
-  /* -ms-flex-align: center; */
-  /* align-items: center; */
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   gap: 3rem;
 }
 
@@ -1806,6 +1802,9 @@ html[dir="rtl"] .pe-3 {
     padding: 1rem 1rem;
     margin: 0px 1rem;
   }
+  .about .row {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1838,6 +1837,9 @@ html[dir="rtl"] .pe-3 {
   }
   .home .slide .content h3 {
     font-size: 3rem;
+  }
+  .services_page_home .box-container {
+    grid-template-columns: repeat(auto-fit, 100%);
   }
 }
 
