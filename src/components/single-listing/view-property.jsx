@@ -1,6 +1,8 @@
 import React from "react";
+import data from "../listing/data";
 
 const viewProperty = () => {
+  let [currentItem, setCurrentItem] = React.useState({});
   return (
     <section className="view-property">
       <div className="details">

@@ -45,12 +45,12 @@ const Listing = () => {
                 <p>
                   <span>{card.details.rooms}</span>
                 </p>
-                <p style={{textAlign:"end"}}>
+                <p style={{ textAlign: "end" }}>
                   <i className="fas fa-maximize"></i>
                   <span>{card.details.area}</span>
                 </p>
               </div>
-              <Link to={`/view-property/${card.id}`} className="btn">
+              <Link to={`/view-property?id=${card.id}`} className="btn">
                 view project
               </Link>
             </div>
