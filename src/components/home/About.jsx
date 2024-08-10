@@ -34,7 +34,8 @@ const About = () => {
                 <h3>buy house</h3>
                 <p>
                   Discover your dream home with our expert guidance and vast
-                  listings
+                  listings. Let us help you find the perfect match for your
+                  lifestyle.
                 </p>
               </div>
 
@@ -43,7 +44,7 @@ const About = () => {
                 <h3>rent house</h3>
                 <p>
                   Find the perfect rental property with ease and personalized
-                  options.
+                  options. We make renting smooth and stress-free for you.
                 </p>
               </div>
 
@@ -52,7 +53,8 @@ const About = () => {
                 <h3>sell house</h3>
                 <p>
                   Maximize your property's value with our professional selling
-                  services.
+                  services. Our strategies ensure you get the best deal
+                  possible.
                 </p>
               </div>
 
@@ -61,7 +63,7 @@ const About = () => {
                 <h3>flats and buildings</h3>
                 <p>
                   Explore premium flats and buildings designed for modern
-                  living.
+                  living. Experience luxury and convenience in every corner.
                 </p>
               </div>
             </div>

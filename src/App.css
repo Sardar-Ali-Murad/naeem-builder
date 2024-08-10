@@ -1780,7 +1780,7 @@ html[dir="rtl"] .pe-3 {
 .services_page_home .box-container .box {
   background-color: var(--white);
   box-shadow: var(--box-shodow);
-  padding: 2rem;
+  padding: 0.9rem 2rem;
   text-align: center;
   background-color: var(--light-bg);
 }
