@@ -23,7 +23,12 @@ export default function App() {
                   <div className="content home-section">
                     <h3>Naeem Marwan Builders</h3>
                     <p>Construction & Renovation in Birmingham & Manchester</p>
-                    <a href="#about" className="btn">
+                    <a
+                      href={`https://wa.me/447898769063`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn"
+                    >
                       get started
                     </a>
                   </div>
@@ -45,7 +50,12 @@ export default function App() {
                       Bringing your property visions to reality with expert
                       craftsmanship and personalized service at every step!
                     </p>
-                    <a href="#about" className="btn">
+                    <a
+                      href={`https://wa.me/447898769063`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn"
+                    >
                       get started
                     </a>
                   </div>
@@ -67,7 +77,12 @@ export default function App() {
                       Guiding your property journey with innovative design and
                       meticulous attention to detail, from start to finish!
                     </p>
-                    <a href="#about" className="btn">
+                    <a
+                      href={`https://wa.me/447898769063`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn"
+                    >
                       get started
                     </a>
                   </div>

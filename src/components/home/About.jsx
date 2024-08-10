@@ -18,7 +18,12 @@ const About = () => {
               real estate dreams into reality with unmatched professionalism and
               care.
             </p>
-            <a href="#services" className="btn">
+            <a
+              href={`https://wa.me/447898769063`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
               read more
             </a>
           </div>
