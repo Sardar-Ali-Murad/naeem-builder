@@ -6,11 +6,13 @@ import Projects from "../components/home/Projects";
 import Pricing from "../components/home/Pricing";
 import Contact from "../components/home/Contact";
 import Offers from "../components/home/Offers";
+import ImageGrid from "../components/home/ImageGrid";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
+      <ImageGrid />
       <Offers />
       <About />
       <Services />

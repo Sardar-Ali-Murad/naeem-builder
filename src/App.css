@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=PT+Sans&family=Quicksand&family=Roboto:wght@300;400&family=Tilt+Neon&display=swap");
+
 :root {
   --yellow: #f5bf23;
   --black: #111;
@@ -10,7 +11,7 @@
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Tilt Neon", sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -430,7 +431,7 @@ section {
 }
 
 .home .slide .content h3 {
-  font-size: 6rem;
+  font-size: 3rem;
   color: var(--black);
   text-transform: capitalize;
   text-transform: uppercase;
@@ -471,6 +472,10 @@ section {
   right: 7rem !important;
 }
 
+.home_about_wrap{
+  background-color: var(--black);
+}
+
 .about .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -479,10 +484,15 @@ section {
   gap: 3rem;
 }
 
+.about .heading{
+  color: var(--white) !important;
+}
+
 .about .row .video {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 41rem;
   flex: 1 1 41rem;
+  border-radius: 4px !important;
 }
 
 .about .row .video video {
@@ -497,15 +507,20 @@ section {
 
 .about .row .content h3 {
   font-size: 3.5rem;
-  color: var(--black);
+  color: var(--white);
   text-transform: capitalize;
 }
 
 .about .row .content p {
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--white);
   line-height: 2;
   padding: 1rem 0;
+}
+
+.about .row .content a{
+  background-color: var(--yellow) !important;
+  color: var(--black) !important;
 }
 
 .about .box-container {
@@ -524,6 +539,8 @@ section {
   text-align: center;
   background: var(--light-bg);
   padding: 3rem 2rem;
+  background-color: var(--white) !important;
+  border-radius: 4px ;
 }
 
 .about .box-container .box h3 {
@@ -1782,7 +1799,8 @@ html[dir="rtl"] .pe-3 {
   box-shadow: var(--box-shodow);
   padding: 0.9rem 2rem;
   text-align: center;
-  background-color: var(--light-bg);
+  background-color: var(--white);
+  border-radius: 4px;
 }
 
 .services_page_home .box-container .box img {
@@ -1827,6 +1845,9 @@ html[dir="rtl"] .pe-3 {
 }
 
 /* Home Offer Section */
+.home_offer_wrap{
+  background-color: var(--light-bg);
+}
 
 .home_offer .box-container {
   display: grid;
@@ -1841,6 +1862,7 @@ html[dir="rtl"] .pe-3 {
   padding: 2rem;
   position: relative !important;
   transition: 1s linear;
+  background: var(--white) !important;
 }
 
 .home_offer .box-container .box .image {
@@ -1903,6 +1925,26 @@ html[dir="rtl"] .pe-3 {
   font-size: 1.5rem;
   line-height: 1.8;
   margin: 1rem 0;
+}
+
+/* Image grid */
+
+.image_grid_wrap {
+  background: var(--black);
+}
+.image_grid h1{
+  color: var(--white);
+}
+
+.image_grid .image-container {
+  columns: 3 250px;
+  gap: 15px;
+}
+
+.image_grid .image-container img {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
 }
 
 @media (max-width: 1200px) {

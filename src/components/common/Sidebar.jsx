@@ -28,10 +28,10 @@ const SideBar = ({ showSideBar, setShowSidebar }) => {
       </div>
 
       <div className="share">
-        <a href="#" className="fab fa-facebook-f"></a>
-        <a href="#" className="fab fa-twitter"></a>
-        <a href="#" className="fab fa-instagram"></a>
-        <a href="#" className="fab fa-linkedin"></a>
+        <a className="fab fa-facebook-f"></a>
+        <a className="fab fa-twitter"></a>
+        <a className="fab fa-instagram"></a>
+        <a className="fab fa-linkedin"></a>
       </div>
     </div>
   );

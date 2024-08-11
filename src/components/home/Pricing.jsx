@@ -14,11 +14,11 @@ const Pricing = () => {
               <span>£</span>300<span>/project</span>
             </div>
             <div className="list">
-              <p>Initial Consultation & Site Visit</p>
-              <p>Basic Design and Planning</p>
-              <p>Material Sourcing Assistance</p>
-              <p>Construction & Renovation Advisory</p>
-              <p>Final Inspection</p>
+              <p>Basic Roof Carpentry</p>
+              <p>Standard Painting Services</p>
+              <p>Initial Tree Cutting</p>
+              <p>Basic Roof Renovation</p>
+              <p>House Renovation Consultation</p>
             </div>
             <a
               href={`https://wa.me/447898769063`}
@@ -37,11 +37,11 @@ const Pricing = () => {
               <span>£</span>750<span>/project</span>
             </div>
             <div className="list">
-              <p>Comprehensive Design & Planning</p>
-              <p>Material Procurement & Delivery</p>
-              <p>Full Construction Management</p>
-              <p>Quality Assurance & Safety Checks</p>
-              <p>Post-Construction Support</p>
+              <p>Comprehensive Roof Carpentry</p>
+              <p>Advanced Painting Services</p>
+              <p>Complete Tree Cutting & Removal</p>
+              <p>Extensive Roof Renovation</p>
+              <p>Full House Renovation</p>
             </div>
             <a
               href={`https://wa.me/447898769063`}
@@ -60,11 +60,11 @@ const Pricing = () => {
               <span>£</span>1500<span>/project</span>
             </div>
             <div className="list">
-              <p>Custom Design & Architectural Services</p>
-              <p>High-End Material Sourcing</p>
-              <p>Full Turnkey Construction Management</p>
-              <p>Premium Quality Assurance & Control</p>
-              <p>Extended Post-Construction Support</p>
+              <p>Custom Roof Carpentry & Design</p>
+              <p>Premium Painting & Finishing</p>
+              <p>Specialized Tree Landscaping & Cutting</p>
+              <p>Complete Roof Renovation & Restoration</p>
+              <p>Luxury House Renovation</p>
             </div>
             <a
               href={`https://wa.me/447898769063`}

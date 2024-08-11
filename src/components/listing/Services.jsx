@@ -7,50 +7,57 @@ const Services = () => {
 
       <div className="box-container">
         <div className="box">
-          <img src="images/icon-1.png" alt="" />
-          <h3>buy house</h3>
+          <img src="images/services/paint.png" alt="Painting Services" />
+          <h3>Painting Services</h3>
           <p>
-            Discover your dream home with our expert guidance and vast listings
+            Revitalize your space with our expert painting services, delivering
+            top-quality finishes for interiors and exteriors alike.
           </p>
         </div>
 
         <div className="box">
-          <img src="images/icon-2.png" alt="" />
-          <h3>rent house</h3>
+          <img src="images/services/roof.png" alt="Roof Renovation" />
+          <h3>Roof Renovation</h3>
           <p>
-            Find the perfect rental property with ease and personalized options
-            for you.
+            Strengthen and enhance your roof with our renovation services,
+            ensuring lasting protection and a polished look.
           </p>
         </div>
 
         <div className="box">
-          <img src="images/icon-3.png" alt="" />
-          <h3>sell house</h3>
+          <img src="images/services/carpentery.png" alt="Carpentry Services" />
+          <h3>Carpentry Services</h3>
           <p>
-            Maximize your property's value with our professional selling
-            services.
+            Get tailored carpentry solutions, from framing to finishing, for
+            outstanding results on all your projects.
           </p>
         </div>
 
         <div className="box">
-          <img src="images/icon-4.png" alt="" />
-          <h3>flats and buildings</h3>
-          <p>Explore premium flats and buildings designed for modern living.</p>
-        </div>
-
-        <div className="box">
-          <img src="images/icon-5.png" alt="" />
-          <h3>shops and malls</h3>
+          <img src="images/services/garden.png" alt="Garden Cleaning" />
+          <h3>Garden Cleaning</h3>
           <p>
-            Secure prime retail spaces in vibrant and bustling commercial
-            locations.
+            Keep your garden in top shape with our cleaning services, covering
+            everything from debris removal to detailed landscaping.
           </p>
         </div>
 
         <div className="box">
-          <img src="images/icon-6.png" alt="" />
-          <h3>24/7 service</h3>
-          <p>Experience round-the-clock support for all your property needs.</p>
+          <img src="images/services/tree.png" alt="Tree Cutting" />
+          <h3>Tree Cutting</h3>
+          <p>
+            Ensure safe and efficient tree cutting with our expert services,
+            maintaining the health and safety of your landscape.
+          </p>
+        </div>
+
+        <div className="box">
+          <img src="images/icon-6.png" alt="24/7 Service" />
+          <h3>24/7 Service</h3>
+          <p>
+            Experience round-the-clock support for all your property and project
+            needs, any time, any day.
+          </p>
         </div>
       </div>
     </section>

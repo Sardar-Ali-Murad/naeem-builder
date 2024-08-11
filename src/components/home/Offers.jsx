@@ -47,7 +47,7 @@ const Offers = () => {
   ];
 
   return (
-    <div>
+    <div className="home_offer_wrap">
       <section class="home_offer" id="blogs">
         <h1 class="heading">
           What We <span>Offer</span>

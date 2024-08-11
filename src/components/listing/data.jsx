@@ -200,7 +200,7 @@ const projectCards = [
     imageSrc: "images/project-1.jpeg",
     type: ["commercial", "construction"],
     name: "Commercial Office Build",
-    location: "Kingstanding, Birmingham, England - B44 9LS",
+    location: "Kingstanding, Birmingham, England - B44",
     details: {
       rooms: "10 Offices",
       bathrooms: "5",
@@ -209,7 +209,7 @@ const projectCards = [
     extraDetails: {
       image: "images/project-1.jpeg",
       title: "Commercial Office Build",
-      location: "Kingstanding, Birmingham, England - B44 9LS",
+      location: "Kingstanding, Birmingham, England - B44",
       owner: "Liam Davis",
       phone: "+44 7898 769068",
       date: "25-08-2023",

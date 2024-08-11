@@ -5,109 +5,49 @@ const Home = () => {
     <div className="listing_home">
       <section className="center">
         <form action="search.html" method="post">
-          <h3>find your perfect home</h3>
+          <h3>find your desired service</h3>
           <div className="box">
             <p>
-              enter location <span>*</span>
+              enter service location <span>*</span>
             </p>
             <input
               type="text"
               name="location"
               required
               maxlength="50"
-              placeholder="enter ciyt name"
+              placeholder="enter city name"
               className="input"
             />
           </div>
           <div className="flex">
             <div className="box">
               <p>
-                property type <span>*</span>
+                select service type <span>*</span>
               </p>
-              <select name="type" className="input" required>
-                <option value="flat">flat</option>
-                <option value="house">house</option>
-                <option value="shop">shop</option>
+              <select name="service" className="input" required>
+                <option value="painting">Painting</option>
+                <option value="roof-renovation">Roof Renovation</option>
+                <option value="carpentry">Carpentry</option>
+                <option value="garden-cleaning">Garden Cleaning</option>
+                <option value="tree-cutting">Tree Cutting</option>
               </select>
             </div>
             <div className="box">
               <p>
-                how many BHK <span>*</span>
+                select budget range <span>*</span>
               </p>
-              <select name="bhk" className="input" required>
-                <option value="1">1 BHK</option>
-                <option value="2">2 BHK</option>
-                <option value="3">3 BHK</option>
-                <option value="4">4 BHK</option>
-                <option value="5">5 BHK</option>
-                <option value="6">6 BHK</option>
-                <option value="7">7 BHK</option>
-                <option value="8">8 BHK</option>
-                <option value="9">9 BHK</option>
-              </select>
-            </div>
-            <div className="box">
-              <p>
-                maximum budget <span>*</span>
-              </p>
-              <select name="minimum" className="input" required>
-                <option value="50000">£50k</option>
-                <option value="100000">£100k</option>
-                <option value="200000">£200k</option>
-                <option value="300000">£300k</option>
-                <option value="400000">£400k</option>
-                <option value="500000">£500k</option>
-                <option value="600000">£600k</option>
-                <option value="700000">£700k</option>
-                <option value="800000">£800k</option>
-                <option value="900000">£900k</option>
-                <option value="1000000">£1m</option>
-                <option value="2000000">£2m</option>
-                <option value="3000000">£3m</option>
-                <option value="4000000">£4m</option>
-                <option value="5000000">£5m</option>
-                <option value="6000000">£6m</option>
-                <option value="7000000">£7m</option>
-                <option value="8000000">£8m</option>
-                <option value="9000000">£9m</option>
-                <option value="10000000">£10m</option>
-                <option value="15000000">£15m</option>
-                <option value="20000000">£20m</option>
-              </select>
-            </div>
-            <div className="box">
-              <p>
-                maximum budget <span>*</span>
-              </p>
-              <select name="maximum" className="input" required>
-                <option value="50000">£50k</option>
-                <option value="100000">£100k</option>
-                <option value="200000">£200k</option>
-                <option value="300000">£300k</option>
-                <option value="400000">£400k</option>
-                <option value="500000">£500k</option>
-                <option value="600000">£600k</option>
-                <option value="700000">£700k</option>
-                <option value="800000">£800k</option>
-                <option value="900000">£900k</option>
-                <option value="1000000">£1m</option>
-                <option value="2000000">£2m</option>
-                <option value="3000000">£3m</option>
-                <option value="4000000">£4m</option>
-                <option value="5000000">£5m</option>
-                <option value="6000000">£6m</option>
-                <option value="7000000">£7m</option>
-                <option value="8000000">£8m</option>
-                <option value="9000000">£9m</option>
-                <option value="10000000">£10m</option>
-                <option value="15000000">£15m</option>
-                <option value="20000000">£20m</option>
+              <select name="budget" className="input" required>
+                <option value="below-1000">Below £1,000</option>
+                <option value="1000-5000">£1,000 - £5,000</option>
+                <option value="5000-10000">£5,000 - £10,000</option>
+                <option value="10000-20000">£10,000 - £20,000</option>
+                <option value="20000-above">Above £20,000</option>
               </select>
             </div>
           </div>
           <input
             type="submit"
-            value="search property"
+            value="find services"
             name="search"
             className="btn"
           />

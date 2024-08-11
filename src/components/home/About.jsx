@@ -3,96 +3,106 @@ import Listing from "../listing/Services";
 
 const About = () => {
   return (
-    <section className="about" id="about">
-      <h1 className="heading"> about us </h1>
+    <div className="home_about_wrap">
+      <section className="about" id="about">
+        <h1 className="heading"> about us </h1>
 
-      <div className="row">
-        <div className="video">
-          <video src="images/video.mp4" loop muted autoPlay></video>
-        </div>
-        <div className="content">
-          <div>
-            <h3>We will provide you the best work which you dreamt for!</h3>
-            <p>
-              Our dedicated team ensures top-quality results, transforming your
-              real estate dreams into reality with unmatched professionalism and
-              care.
-            </p>
-            <a
-              href={`https://wa.me/447898769063`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn"
-            >
-              read more
-            </a>
+        <div className="row">
+          <div className="video">
+            <video src="images/video.mp4" loop muted autoPlay></video>
           </div>
-          <div className="services_page_home">
-            <div className="box-container">
-              <div className="box">
-                <img src="images/icon-1.png" alt="" />
-                <h3>buy house</h3>
-                <p>
-                  Discover your dream home with our expert guidance and vast
-                  listings. Let us help you find the perfect match for your
-                  lifestyle.
-                </p>
-              </div>
+          <div className="content">
+            <div>
+              <h3>We will provide you the best work which you dreamt for!</h3>
+              <p>
+                Our dedicated team ensures top-quality results, transforming
+                your real estate dreams into reality with unmatched
+                professionalism and care.
+              </p>
+              <a
+                href={`https://wa.me/447898769063`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                read more
+              </a>
+            </div>
+            <div className="services_page_home">
+              <div className="box-container">
+                <div className="box">
+                  <img
+                    src="images/services/paint.png"
+                    alt="Painting Services"
+                  />
+                  <h3>Painting Services</h3>
+                  <p>
+                    Transform your space with our professional painting
+                    services. We offer high-quality finishes that bring new life
+                    to your interiors and exteriors.
+                  </p>
+                </div>
 
-              <div className="box">
-                <img src="images/icon-2.png" alt="" />
-                <h3>rent house</h3>
-                <p>
-                  Find the perfect rental property with ease and personalized
-                  options. We make renting smooth and stress-free for you.
-                </p>
-              </div>
+                <div className="box">
+                  <img src="images/services/roof.png" alt="Roof Renovation" />
+                  <h3>Roof Renovation</h3>
+                  <p>
+                    Boost your roof's durability and appearance with our expert
+                    renovation services. We ensure lasting protection and
+                    aesthetic appeal.
+                  </p>
+                </div>
 
-              <div className="box">
-                <img src="images/icon-3.png" alt="" />
-                <h3>sell house</h3>
-                <p>
-                  Maximize your property's value with our professional selling
-                  services. Our strategies ensure you get the best deal
-                  possible.
-                </p>
-              </div>
+                <div className="box">
+                  <img
+                    src="images/services/carpentery.png"
+                    alt="Carpentry Services"
+                  />
+                  <h3>Carpentry Services</h3>
+                  <p>
+                    Custom carpentry solutions tailored to your needs. From
+                    framing to finishing, our skilled craftsmen deliver
+                    exceptional results for your projects.
+                  </p>
+                </div>
 
-              <div className="box">
-                <img src="images/icon-4.png" alt="" />
-                <h3>flats and buildings</h3>
-                <p>
-                  Explore premium flats and buildings designed for modern
-                  living. Experience luxury and convenience in every corner.
-                </p>
+                <div className="box">
+                  <img src="images/services/garden.png" alt="Garden Cleaning" />
+                  <h3>Garden Cleaning</h3>
+                  <p>
+                    Keep your garden pristine with our comprehensive cleaning
+                    services. We handle everything from debris removal to
+                    detailed landscaping.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="box-container">
-        <div className="box">
-          <h3>4+</h3>
-          <p>working since</p>
-        </div>
+        <div className="box-container">
+          <div className="box">
+            <h3>4+</h3>
+            <p>working since</p>
+          </div>
 
-        <div className="box">
-          <h3>100+</h3>
-          <p>successfull deals</p>
-        </div>
+          <div className="box">
+            <h3>100+</h3>
+            <p>successfull deals</p>
+          </div>
 
-        <div className="box">
-          <h3>80+</h3>
-          <p>satisfied customers</p>
-        </div>
+          <div className="box">
+            <h3>80+</h3>
+            <p>satisfied customers</p>
+          </div>
 
-        <div className="box">
-          <h3>6+</h3>
-          <p>active agents</p>
+          <div className="box">
+            <h3>6+</h3>
+            <p>active agents</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

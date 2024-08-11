@@ -22,7 +22,14 @@ export default function App() {
                   />
                   <div className="content home-section">
                     <h3>Naeem Marwan Builders</h3>
-                    <p>Construction & Renovation in Birmingham & Manchester</p>
+                    <p>
+                      Comprehensive Construction & Renovation Services in
+                      Birmingham & Manchester. From roof renovations to detailed
+                      carpentry and professional painting, we transform your
+                      spaces with precision and care. Serving both residential
+                      and commercial projects, we ensure quality and
+                      satisfaction at every step.
+                    </p>
                     <a
                       href={`https://wa.me/447898769063`}
                       target="_blank"
