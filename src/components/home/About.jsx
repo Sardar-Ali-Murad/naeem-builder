@@ -1,5 +1,4 @@
 import React from "react";
-import Listing from "../listing/Services";
 
 const About = () => {
   return (

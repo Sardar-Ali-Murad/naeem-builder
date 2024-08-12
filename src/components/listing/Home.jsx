@@ -40,7 +40,7 @@ const PriceEstimation = () => {
   return (
     <div className="listing_home">
       <section className="center">
-        <form action="search.html" method="post">
+        <form onSubmit={(event) => event.preventDefault()}>
           <h3>Contact Us</h3>
           <div className="box">
             <p>The city we work in</p>
