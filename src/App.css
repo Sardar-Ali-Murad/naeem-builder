@@ -2008,10 +2008,7 @@ html[dir="rtl"] .pe-3 {
   .home .slide .content {
     background-color: var(--light-bg);
     border-radius: 8px;
-  }
-
-  .home .slide .content p {
-    padding: 2rem 2rem;
+    width: 95%;
   }
 }
 
