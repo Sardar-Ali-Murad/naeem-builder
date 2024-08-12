@@ -3,32 +3,33 @@ import React from "react";
 const Steps = () => {
   return (
     <section className="steps">
-      <h1 className="about_heading">3 simple steps</h1>
+      <h1 className="about_heading">3 Simple Steps</h1>
 
       <div className="box-container">
         <div className="box">
-          <img src="images/step-1.png" alt="" />
-          <h3>search property</h3>
+          <img src="images/step-1.png" alt="Consultation" />
+          <h3>Consultation</h3>
           <p>
-            Find your dream home with our easy-to-use search tools and filters.
+            Schedule a consultation to discuss your project needs. We’ll assess
+            your requirements and provide expert guidance to ensure success.
           </p>
         </div>
 
         <div className="box">
-          <img src="images/step-2.png" alt="" />
-          <h3>contact agents</h3>
+          <img src="images/step-2.png" alt="Planning & Design" />
+          <h3>Planning & Design</h3>
           <p>
-            Connect with experienced agents ready to assist you every step of
-            the way.
+            Work with our team to create a tailored plan and design for your
+            project. Every detail is crafted to meet your vision and needs.
           </p>
         </div>
 
         <div className="box">
-          <img src="images/step-3.png" alt="" />
-          <h3>enjoy property</h3>
+          <img src="images/step-3.png" alt="Execution & Delivery" />
+          <h3>Execution & Delivery</h3>
           <p>
-            Move into your new space and start living the life you've always
-            wanted.
+            Our skilled professionals bring your vision to life with precision,
+            delivering a high-quality result on time and within budget.
           </p>
         </div>
       </div>
