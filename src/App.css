@@ -2009,6 +2009,10 @@ html[dir="rtl"] .pe-3 {
     background-color: var(--light-bg);
     border-radius: 8px;
   }
+
+  .home .slide .content p {
+    padding: 2rem 2rem;
+  }
 }
 
 @media (max-width: 450px) {
