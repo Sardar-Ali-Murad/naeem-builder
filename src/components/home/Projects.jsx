@@ -14,69 +14,84 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <section className="projects" id="projects">
-        <h1 className="heading"> our projects </h1>
+        <h1 className="heading">Our Projects</h1>
 
         <div className="box-container" ref={galleryRef}>
-          <a href="images/project-1.jpeg" className="box">
+          <a href="images/home-projects/painting.jpg" className="box">
             <div className="image">
-              <img src="images/project-1.jpeg" alt="" />
+              <img
+                src="images/home-projects/painting.jpg"
+                alt="Painting Project"
+              />
             </div>
             <div className="content">
               <div className="info">
-                <h3>Dream Home</h3>
-                <p>construction, design</p>
+                <h3>Painting Job</h3>
+                <p>Bright interiors</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
           </a>
 
-          <a href="images/project-2.jpeg" className="box">
+          <a href="images/home-projects/roof-renovation.jpg" className="box">
             <div className="image">
-              <img src="images/project-2.jpeg" alt="" />
+              <img
+                src="images/home-projects/roof-renovation.jpg"
+                alt="Roof Renovation"
+              />
             </div>
             <div className="content">
               <div className="info">
-                <h3>Luxury Apartments</h3>
-                <p>modern living, premium amenities</p>
+                <h3>Roof Renovation</h3>
+                <p>Quality repair</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
           </a>
 
-          <a href="images/project-3.jpeg" className="box">
+          <a href="images/home-projects/carpentry.jpg" className="box">
             <div className="image">
-              <img src="images/project-3.jpeg" alt="" />
+              <img
+                src="images/home-projects/carpentry.jpg"
+                alt="Carpentry Work"
+              />
             </div>
             <div className="content">
               <div className="info">
-                <h3>Office Spaces</h3>
-                <p>functional design</p>
+                <h3>Carpentry Work</h3>
+                <p>Wooden elegance</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
           </a>
 
-          <a href="images/project-4.jpeg" className="box">
+          <a href="images/home-projects/garden-cleaning.webp" className="box">
             <div className="image">
-              <img src="images/project-4.jpeg" alt="" />
+              <img
+                src="images/home-projects/garden-cleaning.webp"
+                alt="Garden Cleaning"
+              />
             </div>
             <div className="content">
               <div className="info">
-                <h3>Retail Stores</h3>
-                <p>attractive layouts</p>
+                <h3>Garden Cleaning</h3>
+                <p>Neat outdoors</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
           </a>
 
-          <a href="images/project-7.jpeg" className="box">
+          <a href="images/home-projects/tree-cutting.jpg" className="box">
             <div className="image">
-              <img src="images/project-7.jpeg" alt="" />
+              <img
+                src="images/home-projects/tree-cutting.jpg"
+                alt="Tree Cutting"
+              />
             </div>
             <div className="content">
               <div className="info">
-                <h3>Custom Homes</h3>
-                <p>personalized design</p>
+                <h3>Tree Cutting</h3>
+                <p>Safe removal</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
@@ -84,12 +99,12 @@ const Projects = () => {
 
           <a href="images/project-6.jpeg" className="box">
             <div className="image">
-              <img src="images/project-6.jpeg" alt="" />
+              <img src="images/project-6.jpeg" alt="Landscape Work" />
             </div>
             <div className="content">
               <div className="info">
-                <h3>Renovation Projects </h3>
-                <p>modern upgrades</p>
+                <h3>Landscape Work</h3>
+                <p>Beautiful exteriors</p>
               </div>
               <i className="fas fa-plus"></i>
             </div>
