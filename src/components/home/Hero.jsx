@@ -12,14 +12,7 @@ export default function Hero() {
             <Swiper navigation={true} modules={[Navigation]}>
               <SwiperSlide>
                 <div className="slide">
-                  <img
-                    src="images/project-2.jpeg"
-                    style={{
-                      position: "absolute",
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  />
+                  <img src="images/project-2.jpeg" className="heroImage" />
                   <div className="home-section-wrap">
                     <div className="content home-section">
                       <h3>Naeem Marwan Builders</h3>
@@ -45,14 +38,7 @@ export default function Hero() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="slide">
-                  <img
-                    src="images/project-1.jpeg"
-                    style={{
-                      position: "absolute",
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  />
+                  <img src="images/project-1.jpeg" className="heroImage" />
                   <div className="home-section-wrap">
                     <div className="content home-section">
                       <h3>Making Dreams Come to Life</h3>
@@ -79,14 +65,7 @@ export default function Hero() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="slide">
-                  <img
-                    src="images/project-4.jpeg"
-                    style={{
-                      position: "absolute",
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  />
+                  <img src="images/project-4.jpeg" className="heroImage" />
                   <div className="home-section-wrap">
                     <div className="content home-section">
                       <h3>From Concept to Creation</h3>

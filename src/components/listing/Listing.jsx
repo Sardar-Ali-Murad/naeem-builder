@@ -14,7 +14,6 @@ const Listing = () => {
                 <h3>{card.admin.initial}</h3>
                 <div>
                   <p>{card.admin.name}</p>
-                  <span>{card.admin.date}</span>
                 </div>
               </div>
               <div className="thumb">

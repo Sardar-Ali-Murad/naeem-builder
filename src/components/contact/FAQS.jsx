@@ -59,7 +59,7 @@ const FAQS = () => {
                 >
                   <div className="d-flex w-100 me-3 align-items-center justify-content-between">
                     <div className="d-flex align-items-center w-100">
-                      <div style={{ fontSize: "1.5rem" }}>{item?.heading}</div>
+                      <div className="f-15">{item?.heading}</div>
                     </div>
                   </div>
                 </button>
@@ -70,7 +70,7 @@ const FAQS = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <p style={{ fontSize: "1.2rem" }}>{item?.paragraph}</p>
+                  <p className="f-12">{item?.paragraph}</p>
                 </div>
               </div>
             </div>

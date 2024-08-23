@@ -14,16 +14,12 @@ const viewProperty = () => {
   return (
     <section class="view-property">
       <div class="details">
-        <div class="thumb">
-          <div class="big-image">
-            <img src={currentItem?.imageSrc} alt="Modern Home Renovation" />
-          </div>
-          <div className="small-images">
-            <img src="images/house-img-1.webp" alt="" />
-            <img src="images/hall-img-1.webp" alt="" />
-            <img src="images/kitchen-img-1.webp" alt="" />
-            <img src="images/bathroom-img-1.webp" alt="" />
-          </div>
+        <div className="listingMainImagWrap thumb">
+          <img
+            src={currentItem?.imageSrc}
+            className="listingMainImg"
+            alt="Modern Home Renovation"
+          />
         </div>
 
         <h3 class="name hidden">{currentItem?.name}</h3>
@@ -38,25 +34,17 @@ const viewProperty = () => {
             <strong>Owner:</strong> {currentItem?.extraDetails?.owner}
           </p>
           <p>
-            <strong>Phone:</strong> {currentItem?.extraDetails?.phone}
-          </p>
-          <p>
-            <strong>Date:</strong> {currentItem?.extraDetails?.date}
-          </p>
-          <p>
             <strong>Site Type:</strong> {currentItem?.extraDetails?.siteType}
           </p>
           <p>
-            <strong>Project Type:</strong>{" "}
+            <strong>Project Type:</strong>
             {currentItem?.extraDetails?.projectType}
           </p>
         </div>
 
         <div class="descriptions">
           <h4 className="name hidden">Project Description</h4>
-          <p style={{ fontSize: "15px" }}>
-            {currentItem?.extraDetails?.description}
-          </p>
+          <p className="f-15">{currentItem?.extraDetails?.description}</p>
         </div>
 
         <div class="amenities">
@@ -64,7 +52,7 @@ const viewProperty = () => {
           <ul>
             {currentItem?.extraDetails?.amenities?.map((singleItem, index) => {
               return (
-                <li key={index} style={{ fontSize: "15px" }}>
+                <li key={index} className="f-15">
                   {singleItem}
                 </li>
               );
@@ -77,8 +65,8 @@ const viewProperty = () => {
           <ul>
             {currentItem?.extraDetails?.previousState?.map((state, index) => {
               return (
-                <li key={index} style={{ fontSize: "15px" }}>
-                  <strong style={{ fontSize: "15px", marginRight: "5px" }}>
+                <li key={index} className="f-15">
+                  <strong className="f-15 mr-5">
                     {state?.feature?.toUpperCase()}:
                   </strong>
                   {state?.state}

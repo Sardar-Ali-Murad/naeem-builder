@@ -91,6 +91,26 @@ section {
   }
 }
 
+.f-15 {
+  font-size: 15px !important;
+}
+
+.mr-5 {
+  margin-right: 5px !important;
+}
+.f-15 {
+  font-size: 1.5rem !important;
+}
+.f-12 {
+  font-size: 1.2rem !important;
+}
+
+.heroImage {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .error {
   color: red;
   position: relative;
@@ -1941,6 +1961,18 @@ html[dir="rtl"] .pe-3 {
   margin-bottom: 10px;
   border-radius: 5px;
   width: 100%;
+}
+
+.listingMainImagWrap {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.listingMainImg {
+  height: 60vh !important;
+  width: 100% !important;
+  object-fit: contain !important;
 }
 
 @media (max-width: 1200px) {
