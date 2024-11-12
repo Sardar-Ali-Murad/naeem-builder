@@ -7,9 +7,6 @@ const About = () => {
         <h1 className="heading"> about us </h1>
 
         <div className="row">
-          <div className="video">
-            <video src="images/video.mp4" loop muted autoPlay></video>
-          </div>
           <div className="content">
             <div>
               <h3>We will provide you the best work which you dreamt for!</h3>
